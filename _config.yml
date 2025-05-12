@@ -33,6 +33,8 @@ plugins:
 
 include:
   - details
+  - _pages
+
 
 
 
