@@ -5,7 +5,7 @@ permalink: /customindex/
 ---
 
 
-![Custom Index](images/rice_index.png)
+![Custom Index](../images/rice_index.png)
 
 Where:
 * %Y1 and %Y2 are the percentage of **Yes** votes in Group 1 and Group 2,
