@@ -28,7 +28,7 @@ Within the european parliment there are coaliattion within the parlinent over di
 <div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
   <iframe 
     src="/images/epg_table_bokeh.html"
-    style="width: 90vw; max-width: 1000px; height: 350px; border: none; display: block; margin: 0; padding: 0;"
+    style="width: 90vw; max-width: 1000px; height: 200px; border: none; display: block; margin: 0; padding: 0;"
     loading="lazy">
   </iframe>
 </div>
@@ -43,9 +43,7 @@ Since **polarization** is a fairly abstract term, we need to **quantify** it som
 
 To do this, we use the **Rice Index**, which is a number between 0 and 1 that indicates the level of agreement within a group. The formula is:
 
-$$
-\text{Rice Index} = \frac{|Y - N|}{Y + N + A}
-$$
+![Rice Index](images/rice_index.png)
 
 Where:
 
