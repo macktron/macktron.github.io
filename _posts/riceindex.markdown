@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Rice Index
-permalink: /riceindex/
+permalink: /riceindex
 ---
 
 
