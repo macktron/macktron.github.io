@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.7.2.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.7.2.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="e6f5be92-69fd-4529-98e6-3c29e01d88b0" data-root-id="p13450" style="display: contents;"></div>
+  
+    <script type="application/json" id="a97a8b82-99d4-42eb-9a6a-e27337343d68">
+      {"95a09b26-4324-4615-bf96-296f9e51b84e":{"version":"3.7.2","title":"Bokeh Application","roots":[{"type":"object","name":"DataTable","id":"p13450","attributes":{"width":1000,"height":280,"source":{"type":"object","name":"ColumnDataSource","id":"p13430","attributes":{"selected":{"type":"object","name":"Selection","id":"p13431","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p13432"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"BQAAAAYAAAADAAAABAAAAAAAAAABAAAAAgAAAA=="},"shape":[7],"dtype":"int32","order":"little"}],["Color",{"type":"ndarray","array":["#039BE5","#0D47A1","#1A237E","#43A047","#808080","#B71C1C","#D32F2F"],"shape":[7],"dtype":"object","order":"little"}],["ColorBox",{"type":"ndarray","array":["&lt;div style='width:20px; height:20px; background-color:#039BE5; border:1px solid #000;'&gt;&lt;/div&gt;","&lt;div style='width:20px; height:20px; background-color:#0D47A1; border:1px solid #000;'&gt;&lt;/div&gt;","&lt;div style='width:20px; height:20px; background-color:#1A237E; border:1px solid #000;'&gt;&lt;/div&gt;","&lt;div style='width:20px; height:20px; background-color:#43A047; border:1px solid #000;'&gt;&lt;/div&gt;","&lt;div style='width:20px; height:20px; background-color:#808080; border:1px solid #000;'&gt;&lt;/div&gt;","&lt;div style='width:20px; height:20px; background-color:#B71C1C; border:1px solid #000;'&gt;&lt;/div&gt;","&lt;div style='width:20px; height:20px; background-color:#D32F2F; border:1px solid #000;'&gt;&lt;/div&gt;"],"shape":[7],"dtype":"object","order":"little"}],["Abbreviation",{"type":"ndarray","array":["REG","EPP","IDG","Greens/EFA","NI","The Left","S&amp;D"],"shape":[7],"dtype":"object","order":"little"}],["Full Name",{"type":"ndarray","array":["&lt;span style='color:#039BE5; font-weight:bold;'&gt;Renew Europe Group&lt;/span&gt;","&lt;span style='color:#0D47A1; font-weight:bold;'&gt;European People's Party&lt;/span&gt;","&lt;span style='color:#1A237E; font-weight:bold;'&gt;Identity and Democracy Group&lt;/span&gt;","&lt;span style='color:#43A047; font-weight:bold;'&gt;Greens/European Free Alliance&lt;/span&gt;","&lt;span style='color:#808080; font-weight:bold;'&gt;Non-Attached Members&lt;/span&gt;","&lt;span style='color:#B71C1C; font-weight:bold;'&gt;The Left&lt;/span&gt;","&lt;span style='color:#D32F2F; font-weight:bold;'&gt;Progressive Alliance of Socialists and Democrats&lt;/span&gt;"],"shape":[7],"dtype":"object","order":"little"}],["Ideology",{"type":"ndarray","array":["Centrist, Liberal","Center-right to Right-wing","Right-wing to Far-right","Green politics, Regionalist","Mixed/Unaligned","Left-wing to Far-left","Center-left to Left-wing"],"shape":[7],"dtype":"object","order":"little"}],["MEPs (2015)",{"type":"ndarray","array":["9.86%","34.86%","6.63%","7.48%","3.74%","7.99%","29.42%"],"shape":[7],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p13454","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p13455"}}},"columns":[{"type":"object","name":"TableColumn","id":"p13434","attributes":{"field":"ColorBox","title":"","formatter":{"type":"object","name":"HTMLTemplateFormatter","id":"p13433"},"editor":{"type":"object","name":"StringEditor","id":"p13436"}}},{"type":"object","name":"TableColumn","id":"p13437","attributes":{"field":"Abbreviation","title":"Abbr.","formatter":{"type":"object","name":"StringFormatter","id":"p13438"},"editor":{"type":"object","name":"StringEditor","id":"p13439"}}},{"type":"object","name":"TableColumn","id":"p13441","attributes":{"field":"Full Name","title":"Full Name","formatter":{"type":"object","name":"HTMLTemplateFormatter","id":"p13440"},"editor":{"type":"object","name":"StringEditor","id":"p13443"}}},{"type":"object","name":"TableColumn","id":"p13444","attributes":{"field":"Ideology","title":"Ideology","formatter":{"type":"object","name":"StringFormatter","id":"p13445"},"editor":{"type":"object","name":"StringEditor","id":"p13446"}}},{"type":"object","name":"TableColumn","id":"p13447","attributes":{"field":"MEPs (2015)","title":"MEPs (2015)","formatter":{"type":"object","name":"StringFormatter","id":"p13448"},"editor":{"type":"object","name":"StringEditor","id":"p13449"}}}],"index_position":null}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('a97a8b82-99d4-42eb-9a6a-e27337343d68').textContent;
+              const render_items = [{"docid":"95a09b26-4324-4615-bf96-296f9e51b84e","roots":{"p13450":"e6f5be92-69fd-4529-98e6-3c29e01d88b0"},"root_ids":["p13450"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

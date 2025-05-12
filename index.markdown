@@ -21,6 +21,20 @@ The aim of the analysis of long-term trends in parliamentary voting behaviour wi
 The goal is to present these findings through intuitive, interactive visualizations that allow you the reader to explore voting patterns in depth. The aim is to make it easier to detect trends in polarization, assess party cohesion, and understand which policy domains generate the most division or consensus. Ultimately, the project is intended to support a clearer, data-driven understanding of European parliamentary politics.
 
 
+## Eupean Parliment Groups
+
+Within the european parliment there are coaliattion within the parlinent over different natinaliteis and natinal parties. We will look a lot on these voitng patters sicne we think how they change their voting patters will give us many insights about
+
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    src="/images/epg_table_bokeh.html"
+    style="width: 90vw; max-width: 1000px; height: 700px; border: none;"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+
 ### Measure of political polarizatoin
 
 
