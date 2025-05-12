@@ -51,13 +51,17 @@ A common metric for internal group agreement is the **Rice Index**, which produc
 
 # Political polarization between EPGs
 
+## How to measure it
+
 When we want to understand the **similarity in voting behavior between two different political groups (EPGs)**, the Rice Index falls short. It only looks at agreement within a single group and doesn't consider differences in group size or how often members abstain.
 
 To address this, we use a **custom agreement index** that compares how two groups distribute their votes (Yes, No, Abstain). It calculates how similar their voting patterns are—adjusting for size differences—and returns a value between 0 and 1, where 1 means identical voting behavior. [Learn more about the Custom Index](/customindex/).
 
+## What we use it for
 
 With this method, we can see how similarly each group in the European Parliament (EPGs) voted. We use this information to make a low dimensional map where each group is a point. Groups that voted in similar ways appear closer together on the map, while those that voted differently are farther apart. This map is created using a technique called PCA, which helps us show complex patterns in just two dimensions.
 
+## PCA clustering of EPGs over years
 <div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
   <iframe 
     src="/images/epg_clustering_combined.html"
@@ -67,17 +71,42 @@ With this method, we can see how similarly each group in the European Parliament
 </div>
 
 
-The clustering of political groups (EPGs) based on voting similarity shows clear and consistent alignment between the **Greens/EFA** and **The Left** throughout the observed period. These two groups maintain close proximity in the map, suggesting strong overlap in their voting behavior on most issues. Similarly, **S\&D** and **Renew Europe (REG)** often appear near each other, indicating shared legislative priorities despite being separate blocs.
 
-In contrast, the **Identity and Democracy Group (IDG)** is consistently distant from other EPGs. This persistent separation suggests systematically divergent voting behavior, likely rooted in its far-right ideological position. This is in line with prior research showing that radical-right parties often isolate themselves from consensus-based voting blocs in the European Parliament (McDonnell & Werner, 2020).
 
-**Non-attached MEPs** (NI) are also found in isolated positions in the similarity maps, though with more variability. This reflects their heterogeneous composition—many are either independent, represent niche national interests, or are affiliated with parties excluded from formal EPGs.
+The voting patterns of political groups (EPGs) in the European Parliament show clear and stable trends. The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways. The same goes for **S\&D** and **Renew Europe** — they are usually positioned near each other, suggesting they often agree on votes.
 
-From 2019 to early 2020, the clustering remains relatively stable, with only minor shifts in group positions. However, starting around **2020**, there is a visible increase in **polarization**. Notably, **IDG and EPP** drift further apart, while **REG** also begins to distance itself from the central alignment cluster formed by S\&D and Greens/EFA. This coincides with the **COVID-19 pandemic**, which introduced unprecedented legislation and emergency measures. The crisis likely sharpened ideological divides, especially on issues related to civil liberties, public spending, and EU-level coordination—areas where right-wing and centrist parties often diverge.
+On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group. A 2021 study by the European Council on Foreign Relations found that IDG parties are among the least likely to support EU-level cooperation in key areas like climate and migration policies [source](https://ecfr.eu/publication/europes-invisible-divides/).
 
-In the post-pandemic period, the distance between EPGs continues to widen gradually, suggesting a long-term fragmentation trend. This could reflect broader political shifts in the EU, including the rising influence of nationalist parties, debates over green transition policy, and growing disagreement over migration and digital regulation.
+**Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
 
-Overall, the data suggest a pattern of increasing divergence between ideological extremes and the centrist bloc, particularly since 2020. The observed dynamics align with wider concerns about democratic backsliding and reduced cross-party consensus in EU governance.
+From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded — for example, on lockdowns, vaccine strategies, or EU-wide recovery plans — likely made these divisions stronger.
+
+After 2020, the trend continues. The gap between more extreme groups (like IDG) and the centrist groups (S\&D, EPP, Renew) keeps growing. This may be a sign of **increasing political polarization** in the Parliament — a trend also seen in national politics across Europe in recent years, according to studies by the European Parliamentary Research Service [source](https://epthinktank.eu/2022/07/13/political-polarisation-in-the-european-union/).
+
+
+The following table summarizes the most and least similar EPG pairings annually, based on voting similarity metrics:
+
+| Year  | Most Similar EPGs     | Similarity | Least Similar EPGs    | Similarity |
+|-------|------------------------|------------|-------------------------|------------|
+| 2005  | Greens/EFA – The Left | 0.341      | IDG – The Left         | 0.196      |
+| 2006  | Greens/EFA – The Left | 0.407      | IDG – The Left         | 0.167      |
+| 2007  | Greens/EFA – The Left | 0.288      | IDG – The Left         | 0.161      |
+| 2008  | Greens/EFA – REG      | 0.448      | IDG – The Left         | 0.273      |
+| 2009  | Greens/EFA – S&D      | 0.554      | IDG – The Left         | 0.283      |
+| 2010  | Greens/EFA – S&D      | 0.463      | IDG – The Left         | 0.263      |
+| 2011  | REG – S&D             | 0.494      | IDG – The Left         | 0.177      |
+| 2012  | REG – S&D             | 0.479      | IDG – The Left         | 0.173      |
+| 2013  | Greens/EFA – S&D      | 0.485      | IDG – The Left         | 0.163      |
+| 2014  | Greens/EFA – S&D      | 0.552      | IDG – The Left         | 0.216      |
+| 2015  | REG – S&D             | 0.520      | IDG – REG              | 0.261      |
+| 2016  | Greens/EFA – S&D      | 0.483      | IDG – REG              | 0.281      |
+| 2017  | Greens/EFA – The Left | 0.437      | EPP – IDG              | 0.212      |
+| 2018  | Greens/EFA – The Left | 0.382      | IDG – REG              | 0.167      |
+| 2019  | Greens/EFA – The Left | 0.399      | IDG – REG              | 0.168      |
+| 2020  | Greens/EFA – The Left | 0.499      | IDG – The Left         | 0.183      |
+| 2021  | Greens/EFA – The Left | 0.555      | EPP – IDG              | 0.251      |
+| 2022  | Greens/EFA – S&D      | 0.496      | IDG – The Left         | 0.262      |
+| **TOTAL** | **Greens/EFA – S&D** | **0.454** | **IDG – The Left**       | **0.233** |
 
 
 
@@ -87,15 +116,20 @@ Each legislative vote in the European Parliament is associated with a policy are
 To help understand the nature of political alignment and divvision within the European Parliament, the roll-call votes categorized by legislative topic. Each voote is tagged with a policy area that describes its sustantive focus, allowing us to analyze trends within and across issue domains. These include:
 
 <details>
-  <summary> Budgetary Control</summary>
+  <summary><span style="color: blue; font-weight: bold;">Budgetary Control</span></summary>
   This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
 </details>
 
 * **Budgetary Control** This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
-
+<details>
+  <summary><span style="color: blue; font-weight: bold;">Agriculture</span></summary>
+  Agricultural policy is primarily governed through the Common Agricultural Policy (CAP), one of the EU's largest and most influential frameworks. This area includes votes on subsidies for farmers, environmental conditions for aid, food production standards, and rural development strategies. The topic frequently highlights tensions between environmental sustainability, food security, and economic support for agricultural communities. It also brings into focus national interests, as agricultural priorities vary widely across member states.
+</details>
 
 * **Agriculture**
 Agricultural policy is primarily governed through the Common Agricultural Policy (CAP), one of the EU's largest and most influential frameworks. This area includes votes on subsidies for farmers, environmental conditions for aid, food production standards, and rural development strategies. The topic frequently highlights tensions between environmental sustainability, food security, and economic support for agricultural communities. It also brings into focus national interests, as agricultural priorities vary widely across member states.
+
+<p>This part is always visible. <details style="display: inline;"><summary><span style="color: blue; font-weight: bold; display: inline;">[more]</span></summary> MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.</details></p>
 
 * **Gender Equality**
 This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender. MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
@@ -117,7 +151,10 @@ Development policy focuses on the EU’s engagement with lower-income countries 
 
 [**Reference for EU Policies**](https://www.europarl.europa.eu/topics/en/all)
 
-## Clustering of EPG simmilarity over policy areas
+
+## PCA clustering of EPGs over years per policy area
+
+We perform the PCA clustering process using the same custom index as before, but this time we do it separetly per policy area.
 
 
 <div style="display: flex; justify-content: center;">
@@ -153,7 +190,7 @@ Based on percentage of yes votes in areas
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/01_parliament_agreement.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 715px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -171,7 +208,7 @@ With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed 
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/agreement_by_policy_area_interactive.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 715px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -196,7 +233,7 @@ Exploring the most variable policy areas will help us diagnose what kinds of iss
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/02_within_party_agreement.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 715px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -211,7 +248,7 @@ This interactive line chart plots one line per political group (EPP, S & D, Gree
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/04_bar_rice_by_policy_and_party.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 1000px; border: none;"
     loading="lazy">
   </iframe>
 </div>
