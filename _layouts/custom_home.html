@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .hero {
+        position: relative;
+        height: 60vh;
+        background: url('images/New Project.png') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      }
+
+      .hero h1 {
+        font-size: 3em;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 0.5em 1em;
+        border-radius: 20px;
+      }
+
+      .content {
+        padding: 2em;
+        max-width: 800px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <h1>{{ page.title }}</h1>
+    </section>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </body>
+</html>
