@@ -25,13 +25,14 @@ The goal is to present these findings through intuitive, interactive visualizati
 
 Within the european parliment there are coaliattion within the parlinent over different natinaliteis and natinal parties. We will look a lot on these voitng patters sicne we think how they change their voting patters will give us many insights about
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
   <iframe 
     src="/images/epg_table_bokeh.html"
-    style="width: 90vw; max-width: 1000px; height: 700px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 700px; border: none; display: block; margin: 0; padding: 0;"
     loading="lazy">
   </iframe>
 </div>
+
 
 
 
@@ -72,6 +73,8 @@ Each legislative vote in the European Parliament is associated with a policy are
 
 To help understand the nature of political alignment and divvision within the European Parliament, the roll-call votes categorized by legislative topic. Each voote is tagged with a policy area that describes its sustantive focus, allowing us to analyze trends within and across issue domains. These include:
 ['budgetary control', 'agriculture', 'culture education', 'development', 'employment social affairs', 'environment public health', 'fisheries', 'gender equality', 'international trade', 'legal affairs', 'regional development']
+
+* **Budgetary Control** This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
 
 
 
