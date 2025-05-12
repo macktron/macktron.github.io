@@ -44,7 +44,7 @@ Where:
 * **N** is the number of votes against (No),
 * **A** is the number of abstentions.
 
-[Learn about the Rice Index](/explanations/riceindex/)
+[Learn about the Rice Index](/riceindex/)
 
 
 # Simmilarity of voting patterns between EPGs
@@ -64,9 +64,6 @@ Where:
 
 With this method, we can see how similarly each group in the European Parliament (EPGs) voted. We use this information to make a map where each group is a point. Groups that voted in similar ways appear closer together on the map, while those that voted differently are farther apart. This map is created using a technique called PCA, which helps us show complex patterns in just two dimensions.
 
-
-# Clustering of EPG simmilarity
-
 <div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
   <iframe 
     src="/images/epg_clustering_combined.html"
@@ -74,6 +71,8 @@ With this method, we can see how similarly each group in the European Parliament
     loading="lazy">
   </iframe>
 </div>
+
+We see here how the left and the green grpu
 
 
 # Policy Area

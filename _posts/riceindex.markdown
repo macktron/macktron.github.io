@@ -1,9 +1,9 @@
-
 ---
-layout: custom_home
+layout: default
 title: Rice Index
-permalink: /explanations/riceindex/
+permalink: /riceindex/
 ---
+
 
 
 
