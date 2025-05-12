@@ -146,7 +146,7 @@ Based on percentage of yes votes in areas
 
 <div style="display: flex; justify-content: center;">
   <iframe 
-    src="01_parliament_agreement.html"
+    src="/images/01_parliament_agreement.html"
     style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
     loading="lazy">
   </iframe>
@@ -156,15 +156,15 @@ This line chart shows the annual average Rice index for **all** roll-call votes.
 
 ### 1.2 Interpretation of General Agreement 
 The graph shows a maximum variation of about 20 %. Looking at the "spikes" and thus the periods with most disagreement.
-The Rice index exhibits two pronounced peaks over the 2005–2021 period, both coinciding with systemic crises. In 2008, the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial-stability measures during the global banking collapse. Following this a gradual decline ensued—reaching a trough near 0.47 by 2019—driven by intensifying sovereign-debt disputes, the expansion of populist and Eurosceptic factions, and the polarization induced by the Brexit debate. https://www.gisreportsonline.com/r/brexit-society-europe/
+The Rice index exhibits two pronounced peaks over the 2005–2021 period, both coinciding with systemic crises. In 2008, the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial-stability measures during the global banking collapse. Following this a gradual decline ensued—reaching a trough near 0.47 by 2019—driven by intensifying sovereign-debt disputes, the expansion of populist and Eurosceptic factions, and the polarization induced by the Brexit debate. [**Reference for EU Policies**](https://www.gisreportsonline.com/r/brexit-society-europe/)
 
-With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed from roughly 0.48 to 0.54 as MEPs coalesced around the €750 billion NextGenerationEU recovery fund, joint vaccine procurement and health-emergency protocols.https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national-interest have higher value.
+With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed from roughly 0.48 to 0.54 as MEPs coalesced around the €750 billion NextGenerationEU recovery fund, joint vaccine procurement and health-emergency protocols. [**Reference for EU Policies**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national-interest have higher value.
 
 
 ## 2. Polarization by Policy Area
 <div style="display: flex; justify-content: center;">
   <iframe 
-    src="agreement_by_policy_area_interactive.html"
+    src="/images/agreement_by_policy_area_interactive.html"
     style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
     loading="lazy">
   </iframe>
@@ -190,7 +190,7 @@ Exploring the most variable policy areas will help us diagnose what kinds of iss
 ## 3. Within-Party Cohesion
 <div style="display: flex; justify-content: center;">
   <iframe 
-    src="02_within_party_agreement.html"
+    src="/images/02_within_party_agreement.html"
     style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
     loading="lazy">
   </iframe>
@@ -205,7 +205,7 @@ This interactive line chart plots one line per political group (EPP, S & D, Gree
 ### 3.3 Bar Chart: Party Disagreement by Policy Area  
 <div style="display: flex; justify-content: center;">
   <iframe 
-    src="04_bar_rice_by_policy_and_party.html"
+    src="/images/04_bar_rice_by_policy_and_party.html"
     style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
     loading="lazy">
   </iframe>
