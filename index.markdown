@@ -1,7 +1,7 @@
 ---
 layout: custom_home
 
-title: "Analyzing Drug-Related Crimes in San Francisco"
+title: "Analyzing Polarization in the European Parliament"
 ---
 
 # Introduction
@@ -25,44 +25,38 @@ Within the European Parliament, Members of the European Parliament (MEPs) are or
 
 In our analysis, we focus on how these EPGs vote on different policy issues, as shifts in their voting patterns can reveal important insights about political alignment, cohesion, and change within the EU.
 
-![Rice Index](images/epg_table_bokeh.png)
+
+<div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
+  <iframe 
+    src="/images/epg_table_bokeh.html"
+    style="width: 120vw; max-width: 1000px; height: 700px; border: none; display: block; margin: 0; padding: 0;"
+    loading="lazy">
+  </iframe>
+</div>
 
 
 
-# Measure of internal political polarizatoin Rice index
-
-Since **polarization** is a fairly abstract term, we need to **quantify** it somehow. Since we have the voting results of all MEPs, we can use them to measure the agreement within groups as a metric of polarization.
-
-To do this, we use the **Rice Index**, which is a number between 0 and 1 that indicates the level of agreement within a group. The formula is:
+# Political polarization within EPGs
 
 
-![Rice Index](images/rice_index.png)
+Since **polarization** is a fairly abstract concept, we need a way to **quantify** it. Fortunately, because we have the voting records of all Members of the European Parliament (MEPs), we can measure the level of agreement within political groups as an indicator of polarization.
 
-Where:
-
-* **Y** is the number of votes in favor (Yes),
-* **N** is the number of votes against (No),
-* **A** is the number of abstentions.
-
-[Learn about the Rice Index](/riceindex/)
+A common metric for internal group agreement is the **Rice Index**, which produces a score between 0 and 1. This gives a simple, quantifiable measure of how unified a group is in its voting behavior. [Learn more about the Rice Index](/riceindex/).
 
 
-# Simmilarity of voting patterns between EPGs
-
-When we want to investigate the **similarity of voting behavior between two EPGs**, the Rice Index is not ideal—it only captures internal agreement within a single group and does **not** account for factors like group size differences or abstentions across groups.
-
-To overcome this, we define a **custom agreement index** that measures the alignment between two groups' voting distributions (Yes, No, Abstain). This metric calculates how closely the two groups voted by comparing the proportion of votes of each type, adjusting for group size.
-
-![Rice Index](images/custom_index.png)
-
-Where:
-* %Y1 and %Y2 are the percentage of **Yes** votes in Group 1 and Group 2,
-* %N1 and %N2 are the percentage of **No** votes,
-* %A1 and %A2 are the percentage of **Abstain** votes.
-* This approach allows us to capture how **similarly** two groups voted, rather than how **unified** they are internally.
 
 
-With this method, we can see how similarly each group in the European Parliament (EPGs) voted. We use this information to make a map where each group is a point. Groups that voted in similar ways appear closer together on the map, while those that voted differently are farther apart. This map is created using a technique called PCA, which helps us show complex patterns in just two dimensions.
+
+
+
+# Political polarization between EPGs
+
+When we want to understand the **similarity in voting behavior between two different political groups (EPGs)**, the Rice Index falls short. It only looks at agreement within a single group and doesn't consider differences in group size or how often members abstain.
+
+To address this, we use a **custom agreement index** that compares how two groups distribute their votes (Yes, No, Abstain). It calculates how similar their voting patterns are—adjusting for size differences—and returns a value between 0 and 1, where 1 means identical voting behavior. [Learn more about the Custom Index](/customindex/).
+
+
+With this method, we can see how similarly each group in the European Parliament (EPGs) voted. We use this information to make a low dimensional map where each group is a point. Groups that voted in similar ways appear closer together on the map, while those that voted differently are farther apart. This map is created using a technique called PCA, which helps us show complex patterns in just two dimensions.
 
 <div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
   <iframe 
@@ -72,14 +66,30 @@ With this method, we can see how similarly each group in the European Parliament
   </iframe>
 </div>
 
-We see here how the left and the green grpu
+
+The clustering of political groups (EPGs) based on voting similarity shows clear and consistent alignment between the **Greens/EFA** and **The Left** throughout the observed period. These two groups maintain close proximity in the map, suggesting strong overlap in their voting behavior on most issues. Similarly, **S\&D** and **Renew Europe (REG)** often appear near each other, indicating shared legislative priorities despite being separate blocs.
+
+In contrast, the **Identity and Democracy Group (IDG)** is consistently distant from other EPGs. This persistent separation suggests systematically divergent voting behavior, likely rooted in its far-right ideological position. This is in line with prior research showing that radical-right parties often isolate themselves from consensus-based voting blocs in the European Parliament (McDonnell & Werner, 2020).
+
+**Non-attached MEPs** (NI) are also found in isolated positions in the similarity maps, though with more variability. This reflects their heterogeneous composition—many are either independent, represent niche national interests, or are affiliated with parties excluded from formal EPGs.
+
+From 2019 to early 2020, the clustering remains relatively stable, with only minor shifts in group positions. However, starting around **2020**, there is a visible increase in **polarization**. Notably, **IDG and EPP** drift further apart, while **REG** also begins to distance itself from the central alignment cluster formed by S\&D and Greens/EFA. This coincides with the **COVID-19 pandemic**, which introduced unprecedented legislation and emergency measures. The crisis likely sharpened ideological divides, especially on issues related to civil liberties, public spending, and EU-level coordination—areas where right-wing and centrist parties often diverge.
+
+In the post-pandemic period, the distance between EPGs continues to widen gradually, suggesting a long-term fragmentation trend. This could reflect broader political shifts in the EU, including the rising influence of nationalist parties, debates over green transition policy, and growing disagreement over migration and digital regulation.
+
+Overall, the data suggest a pattern of increasing divergence between ideological extremes and the centrist bloc, particularly since 2020. The observed dynamics align with wider concerns about democratic backsliding and reduced cross-party consensus in EU governance.
+
 
 
 # Policy Area
 Each legislative vote in the European Parliament is associated with a policy area; a thematic classification that indicates the primary subject or focus of the vote. These categories help structure the vast range of EU legislative activity and are used by parliamentary committees and documentation systems to track and organize legislation. Policy areas range from broad domains like environment, budget, and foreign affairs to more specific issues such as digital regulation or public health. They serve as an important analytical layer for understanding what kinds of issues are being voted on, how often they arise, and how political divisions manifest across different types of legislation.
 
 To help understand the nature of political alignment and divvision within the European Parliament, the roll-call votes categorized by legislative topic. Each voote is tagged with a policy area that describes its sustantive focus, allowing us to analyze trends within and across issue domains. These include:
-['budgetary control', 'agriculture', 'culture education', 'development', 'employment social affairs', 'environment public health', 'fisheries', 'gender equality', 'international trade', 'legal affairs', 'regional development']
+
+<details>
+  <summary> Budgetary Control</summary>
+  This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
+</details>
 
 * **Budgetary Control** This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
 
@@ -121,7 +131,6 @@ Development policy focuses on the EU’s engagement with lower-income countries 
 
 
 
-
 ## Yearly voting heatmap
 
 Based on percentage of yes votes in areas
@@ -133,8 +142,6 @@ Based on percentage of yes votes in areas
     loading="lazy">
   </iframe>
 </div>
-
-
 
 
 
