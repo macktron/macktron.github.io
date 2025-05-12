@@ -43,9 +43,9 @@ Since **polarization** is a fairly abstract term, we need to **quantify** it som
 
 To do this, we use the **Rice Index**, which is a number between 0 and 1 that indicates the level of agreement within a group. The formula is:
 
-```math
+$$
 \text{Rice Index} = \frac{|Y - N|}{Y + N + A}
-```
+$$
 
 Where:
 
