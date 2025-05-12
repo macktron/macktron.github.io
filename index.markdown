@@ -43,6 +43,8 @@ Since **polarization** is a fairly abstract term, we need to **quantify** it som
 
 To do this, we use the **Rice Index**, which is a number between 0 and 1 that indicates the level of agreement within a group. The formula is:
 
+
+
 ![Rice Index](images/rice_index.png)
 
 Where:
@@ -56,14 +58,7 @@ Where:
 
 ## Clustering of EPA simmilarity
 
-<div style="display: flex; justify-content: center;">
-  <iframe 
-    src="/images/epg_clustering_combined.html"
-    style="width: 90vw; max-width: 1000px; height: 700px; border: none;"
-    loading="lazy">
-  </iframe>
-</div>
-
+![Rice Index](images/epg_table_bokeh.png)
 
 
 ### Policy Areas###
@@ -80,7 +75,7 @@ To help understand the nature of political alignment and divvision within the Eu
 
 
 
-## Clustering of EPA simmilarity over policy areas
+## Clustering of EPG simmilarity over policy areas
 
 
 <div style="display: flex; justify-content: center;">
