@@ -26,14 +26,7 @@ Within the European Parliament, Members of the European Parliament (MEPs) are or
 In our analysis, we focus on how these EPGs vote on different policy issues, as shifts in their voting patterns can reveal important insights about political alignment, cohesion, and change within the EU.
 
 
-<div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
-  <iframe 
-    src="/images/epg_table_bokeh.html"
-    style="width: 120vw; max-width: 1000px; height: 700px; border: none; display: block; margin: 0; padding: 0;"
-    loading="lazy">
-  </iframe>
-</div>
-
+![MEP Table](images/epg_table_bokeh.png)
 
 
 # Political polarization within EPGs
@@ -42,11 +35,6 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 Since **polarization** is a fairly abstract concept, we need a way to **quantify** it. Fortunately, because we have the voting records of all Members of the European Parliament (MEPs), we can measure the level of agreement within political groups as an indicator of polarization.
 
 A common metric for internal group agreement is the **Rice Index**, which produces a score between 0 and 1. This gives a simple, quantifiable measure of how unified a group is in its voting behavior. [Learn more about the Rice Index](/riceindex/).
-
-
-
-
-
 
 
 # Political polarization between EPGs
@@ -86,27 +74,19 @@ After 2020, the trend continues. The gap between more extreme groups (like IDG) 
 
 The following table summarizes the most and least similar EPG pairings annually, based on voting similarity metrics:
 
-| Year  | Most Similar EPGs     | Similarity | Least Similar EPGs    | Similarity |
-|-------|------------------------|------------|-------------------------|------------|
-| 2005  | Greens/EFA – The Left | 0.341      | IDG – The Left         | 0.196      |
-| 2006  | Greens/EFA – The Left | 0.407      | IDG – The Left         | 0.167      |
-| 2007  | Greens/EFA – The Left | 0.288      | IDG – The Left         | 0.161      |
-| 2008  | Greens/EFA – REG      | 0.448      | IDG – The Left         | 0.273      |
-| 2009  | Greens/EFA – S&D      | 0.554      | IDG – The Left         | 0.283      |
-| 2010  | Greens/EFA – S&D      | 0.463      | IDG – The Left         | 0.263      |
-| 2011  | REG – S&D             | 0.494      | IDG – The Left         | 0.177      |
-| 2012  | REG – S&D             | 0.479      | IDG – The Left         | 0.173      |
-| 2013  | Greens/EFA – S&D      | 0.485      | IDG – The Left         | 0.163      |
-| 2014  | Greens/EFA – S&D      | 0.552      | IDG – The Left         | 0.216      |
-| 2015  | REG – S&D             | 0.520      | IDG – REG              | 0.261      |
-| 2016  | Greens/EFA – S&D      | 0.483      | IDG – REG              | 0.281      |
-| 2017  | Greens/EFA – The Left | 0.437      | EPP – IDG              | 0.212      |
-| 2018  | Greens/EFA – The Left | 0.382      | IDG – REG              | 0.167      |
-| 2019  | Greens/EFA – The Left | 0.399      | IDG – REG              | 0.168      |
-| 2020  | Greens/EFA – The Left | 0.499      | IDG – The Left         | 0.183      |
-| 2021  | Greens/EFA – The Left | 0.555      | EPP – IDG              | 0.251      |
-| 2022  | Greens/EFA – S&D      | 0.496      | IDG – The Left         | 0.262      |
-| **TOTAL** | **Greens/EFA – S&D** | **0.454** | **IDG – The Left**       | **0.233** |
+| Year Range     | Most Similar EPGs     | Least Similar EPGs    |
+|----------------|------------------------|------------------------|
+| 2005–2007      | Greens/EFA – The Left | IDG – The Left         |
+| 2008–2010      | Greens/EFA – REG      | IDG – The Left         |
+| 2011–2012      | REG – S&D             | IDG – The Left         |
+| 2013–2014      | Greens/EFA – S&D      | IDG – The Left         |
+| 2015           | REG – S&D             | IDG – REG              |
+| 2016           | Greens/EFA – S&D      | IDG – REG              |
+| 2017–2019      | Greens/EFA – The Left | EPP – IDG              |
+| 2020           | Greens/EFA – The Left | IDG – The Left         |
+| 2021           | Greens/EFA – The Left | EPP – IDG              |
+| 2022           | Greens/EFA – S&D      | IDG – The Left         |
+
 
 
 
@@ -143,7 +123,6 @@ Agricultural policy is primarily governed through the Common Agricultural Policy
   </li>
 </ul>
 
-<p>This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender. <details style="display: inline;"><summary><span style="color: blue; font-weight: bold; display: inline;">[more]</span></summary> MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.</details></p>
 
 * **Gender Equality**
 This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender. MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
@@ -204,7 +183,7 @@ Based on percentage of yes votes in areas
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/01_parliament_agreement.html"
-    style="width: 90vw; max-width: 1000px; height: 715px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 600px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -222,7 +201,7 @@ With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed 
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/agreement_by_policy_area_interactive.html"
-    style="width: 90vw; max-width: 1000px; height: 715px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -247,7 +226,7 @@ Exploring the most variable policy areas will help us diagnose what kinds of iss
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/02_within_party_agreement.html"
-    style="width: 90vw; max-width: 1000px; height: 715px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -262,7 +241,7 @@ This interactive line chart plots one line per political group (EPP, S & D, Gree
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/04_bar_rice_by_policy_and_party.html"
-    style="width: 90vw; max-width: 1000px; height: 1000px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 800px; border: none;"
     loading="lazy">
   </iframe>
 </div>
