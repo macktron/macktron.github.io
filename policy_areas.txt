@@ -1,0 +1,1 @@
+['budgetary control', 'agriculture', 'culture education', 'development', 'employment social affairs', 'environment public health', 'fisheries', 'gender equality', 'international trade', 'legal affairs', 'regional development']
