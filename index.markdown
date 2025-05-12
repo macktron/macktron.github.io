@@ -59,17 +59,13 @@ With this method, we can see how similarly each group in the European Parliament
 </div>
 
 
-
-
 The voting patterns of political groups (EPGs) in the European Parliament show clear and stable trends. The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways. The same goes for **S\&D** and **Renew Europe** — they are usually positioned near each other, suggesting they often agree on votes.
 
-On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group. A 2021 study by the European Council on Foreign Relations found that IDG parties are among the least likely to support EU-level cooperation in key areas like climate and migration policies [source](https://ecfr.eu/publication/europes-invisible-divides/).
+On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
 
 **Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
 
-From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded — for example, on lockdowns, vaccine strategies, or EU-wide recovery plans — likely made these divisions stronger.
-
-After 2020, the trend continues. The gap between more extreme groups (like IDG) and the centrist groups (S\&D, EPP, Renew) keeps growing. This may be a sign of **increasing political polarization** in the Parliament — a trend also seen in national politics across Europe in recent years, according to studies by the European Parliamentary Research Service [source](https://epthinktank.eu/2022/07/13/political-polarisation-in-the-european-union/).
+From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded — for example, on lockdowns, vaccine strategies, or EU-wide recovery plans — [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
 
 
 The following table summarizes the most and least similar EPG pairings annually, based on voting similarity metrics:
@@ -95,29 +91,34 @@ Each legislative vote in the European Parliament is associated with a policy are
 
 To help understand the nature of political alignment and divvision within the European Parliament, the roll-call votes categorized by legislative topic. Each voote is tagged with a policy area that describes its sustantive focus, allowing us to analyze trends within and across issue domains. These include:
 
-<details>
-  <summary><span style="color: blue; font-weight: bold;">Budgetary Control</span></summary>
-  This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
-</details>
-
-* **Budgetary Control** This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight. MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
-<details>
-  <summary><span style="color: blue; font-weight: bold;">Agriculture</span></summary>
-  Agricultural policy is primarily governed through the Common Agricultural Policy (CAP), one of the EU's largest and most influential frameworks. This area includes votes on subsidies for farmers, environmental conditions for aid, food production standards, and rural development strategies. The topic frequently highlights tensions between environmental sustainability, food security, and economic support for agricultural communities. It also brings into focus national interests, as agricultural priorities vary widely across member states.
-</details>
-
-* **Agriculture**
-Agricultural policy is primarily governed through the Common Agricultural Policy (CAP), one of the EU's largest and most influential frameworks. This area includes votes on subsidies for farmers, environmental conditions for aid, food production standards, and rural development strategies. The topic frequently highlights tensions between environmental sustainability, food security, and economic support for agricultural communities. It also brings into focus national interests, as agricultural priorities vary widely across member states.
-
-
-* **Gender Equality**
-
 <ul>
   <li>
-    <span style="font-weight: bold;">Gender Equality</span> – 
-    This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender.
+    <span style="font-weight: bold;">Budgetary Control</span> – 
+    This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight.
     <details style="display: inline;">
       <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[more]</summary>
+      MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
+    </details>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <span style="font-weight: bold;">Agriculture</span> – 
+    This area includes votes on subsidies for farmers, environmental conditions for aid, food production standards, and rural development strategies. 
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      Agricultural policy is primarily governed through the Common Agricultural Policy (CAP), one of the EU's largest and most influential frameworks. The topic frequently highlights tensions between environmental sustainability, food security, and economic support for agricultural communities. It also brings into focus national interests, as agricultural priorities vary widely across member states.
+    </details>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <span style="font-weight: bold;">Gender Equality</span> – 
+    This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender.
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
       MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
     </details>
   </li>
@@ -128,30 +129,66 @@ Agricultural policy is primarily governed through the Common Agricultural Policy
     <span style="font-weight: bold;">Gender Equality</span> – 
     This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender.
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">➕ [more]</summary>
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
       MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
     </details>
   </li>
 </ul>
 
+<ul>
+  <li>
+    <span style="font-weight: bold;">International Trade</span> – 
+    This area involves the EU’s commercial relationships with non-EU countries, including trade agreements, tariff policy, and regulatory cooperation.      <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      Votes often concern major trade deals (e.g., with Canada, Japan, or Mercosur), export controls, and trade sustainability clauses. This policy area illustrates ideological splits between support for liberalized global markets and calls for stronger protections for labor rights, environmental standards, and strategic industries.
+    </details>
+  </li>
+</ul>
 
-* **Gender Equality**
-This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender. MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
 
-* **International Trade**
-This area involves the EU’s commercial relationships with non-EU countries, including trade agreements, tariff policy, and regulatory cooperation. Votes often concern major trade deals (e.g., with Canada, Japan, or Mercosur), export controls, and trade sustainability clauses. This policy area illustrates ideological splits between support for liberalized global markets and calls for stronger protections for labor rights, environmental standards, and strategic industries.
+<ul>
+  <li>
+    <span style="font-weight: bold;">Fisheries</span> – 
+    This area is governed by the Common Fisheries Policy (CFP), this domain includes legislation on the sustainable management of marine resources, fishing quotas, fleet regulation, and cooperation with non-EU countries on fishing rights.
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      Fisheries policy is vital for coastal economies and often involves negotiations between ecological goals (e.g., preventing overfishing) and economic pressures from national fishing industries. This area can reveal regional divides, especially among member states with significant maritime sectors.
+    </details>
+  </li>
+</ul>
 
-* **Fisheries**
-This area is governed by the Common Fisheries Policy (CFP), this domain includes legislation on the sustainable management of marine resources, fishing quotas, fleet regulation, and cooperation with non-EU countries on fishing rights. Fisheries policy is vital for coastal economies and often involves negotiations between ecological goals (e.g., preventing overfishing) and economic pressures from national fishing industries. This area can reveal regional divides, especially among member states with significant maritime sectors.
+<ul>
+  <li>
+    <span style="font-weight: bold;">Employment & Social Affairs</span> – 
+    This topic covers EU legislation on labor markets, workers' rights, social protections, and inclusive employment policies.
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      Votes address issues such as working conditions, minimum wages, occupational health and safety, social security coordination, and labor mobility. This area is ideologically charged, with progressive and centrist parties typically supporting stronger labor protections, while others advocate for labor market flexibility and reduced regulation.
+    </details>
+  </li>
+</ul>
 
-* **Employment & Social Affairs**
-This topic covers EU legislation on labor markets, workers' rights, social protections, and inclusive employment policies. Votes address issues such as working conditions, minimum wages, occupational health and safety, social security coordination, and labor mobility. This area is ideologically charged, with progressive and centrist parties typically supporting stronger labor protections, while others advocate for labor market flexibility and reduced regulation.
+<ul>
+  <li>
+    <span style="font-weight: bold;">Environment & Public Health</span> – 
+    A high-priority and expansive domain, this area includes votes on environmental regulation (e.g., climate change, biodiversity, pollution control) and health-related policies (e.g., pandemic preparedness, food safety, cross-border healthcare).
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">➕ [more]</summary>
+      MEPs debate legislative proposals aiming to balance ecological sustainability and public well-being with economic interests. Disagreement often arises over regulatory stringency, climate targets, and the role of innovation in solving environmental challenges.
+    </details>
+  </li>
+</ul>
 
-* **Environment & Public Health**
-A high-priority and expansive domain, this area includes votes on environmental regulation (e.g., climate change, biodiversity, pollution control) and health-related policies (e.g., pandemic preparedness, food safety, cross-border healthcare). MEPs debate legislative proposals aiming to balance ecological sustainability and public well-being with economic interests. Disagreement often arises over regulatory stringency, climate targets, and the role of innovation in solving environmental challenges.
-
-* **Development**
-Development policy focuses on the EU’s engagement with lower-income countries through humanitarian aid, technical assistance, and economic partnerships. MEPs vote on funding for global development projects, EU contributions to international organizations, and programs promoting democracy, gender equality, education, and poverty reduction. The topic reflects the EU’s identity as a normative global actor and often connects to broader foreign policy and trade agendas.
+<ul>
+  <li>
+    <span style="font-weight: bold;">Development</span> – 
+    Development policy focuses on the EU’s engagement with lower-income countries through humanitarian aid, technical assistance, and economic partnerships.
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">➕ [more]</summary>
+      MEPs vote on funding for global development projects, EU contributions to international organizations, and programs promoting democracy, gender equality, education, and poverty reduction. The topic reflects the EU’s identity as a normative global actor and often connects to broader foreign policy and trade agendas.
+    </details>
+  </li>
+</ul>
 
 [**Reference for EU Policies**](https://www.europarl.europa.eu/topics/en/all)
 
@@ -169,6 +206,23 @@ We perform the PCA clustering process using the same custom index as before, but
   </iframe>
 </div>
 
+
+
+* In **budgetary control**, a clear **realignment** appears in **2012**, during the peak of the **Eurozone debt crisis**. The **EPP (centre-right)** and **Greens/EFA (green-left)**, who previously showed some alignment, start to **diverge sharply**. This coincides with increasing disagreements over fiscal discipline, austerity, and EU-level spending. The crisis pushed parties into more ideologically defined stances. [Read more on the Euro crisis (ECFR)](https://ecfr.eu/article/commentary_the_euro_crisis_is_not_over_yet/)
+
+* By **2013**, **Renew Europe (REG)** starts to shift positions in this area, moving away from its previous closeness with **S\&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
+
+* In the area of **environment and public health**, we see strong, consistent **clustering** between **Greens/EFA**, **The Left**, and **S\&D**, especially in years like **2018** (see image above). Their alignment reflects shared support for EU-led climate policy, regulation, and health measures.
+
+* In contrast, **IDG (Identity and Democracy Group)** consistently sits **far apart** from other groups on these issues — often opposing EU climate regulations or public health mandates. This matches findings from a 2021 **European Council on Foreign Relations** study, which notes that IDG parties are **among the least likely to support EU-wide cooperation** in areas like climate, migration, or health. [Read the ECFR report](https://ecfr.eu/publication/europes-invisible-divides/)
+
+* In **2020**, a major divergence emerges between **EPP** and **IDG** across multiple policy areas. COVID-19 debates — on vaccines, lockdowns, recovery funds, and public health — force parties to take clear stances. IDG often resisted joint EU responses, while EPP leaned toward centralized action, leading to increased separation in voting similarity.
+
+### Conclusion
+
+Crises and high-stakes policy moments — like the **Eurozone crisis (2012)** or the **COVID-19 pandemic (2020)** — act as catalysts for realignment and polarization in the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: **pro-EU integration vs. nationalist opposition**.
+
+These evolving patterns help explain the **structural polarization** seen in recent years and give insight into where future political conflict lines may lie in EU policymaking.
 
 
 
