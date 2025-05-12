@@ -4,11 +4,12 @@ layout: custom_home
 title: "Analyzing Drug-Related Crimes in San Francisco"
 ---
 
-# Understanding Drug-Related Crimes in San Francisco
+# Badda Badda Riddim
 
-San Francisco is a city known for its unique blend of innovation, culture and inclusivity, and has long struggled with deep-seated social problems. One of the most pressing and intricate of these issues is drug-related crime.
+Ah guh so badda badda, mi seh walla walla
+![For illustrations purposes only](images/voting_polarization_USA.png)
 
-In the last two decades, we've seen a complex dance between rising housing prices and living costs, policy shifts, like the legalization of certain drugs, the fentanyl crisis, and the wider social and economic environment. This study delves into the patterns of drug-related offenses over the period 2023-2024, offering insights into the connections between these elements.
+
 
 ## Overview of the Dataset
 
@@ -122,3 +123,5 @@ This analysis indicates that drug-related crimes in San Francisco have declined 
 ## Contributions
 All three team members contributed across all five parts of the project. All members have completed the weekly exercises need for this project. The final result is a combination of different approaches, reflecting the work of individual efforts into the resulting outcome.
 
+
+helloretstet
