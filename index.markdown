@@ -44,6 +44,9 @@ Where:
 * **N** is the number of votes against (No),
 * **A** is the number of abstentions.
 
+[Learn about the Rice Index](/explanations/riceindex/)
+
+
 # Simmilarity of voting patterns between EPGs
 
 When we want to investigate the **similarity of voting behavior between two EPGs**, the Rice Index is not ideal—it only captures internal agreement within a single group and does **not** account for factors like group size differences or abstentions across groups.
@@ -58,7 +61,8 @@ Where:
 * %A1 and %A2 are the percentage of **Abstain** votes.
 * This approach allows us to capture how **similarly** two groups voted, rather than how **unified** they are internally.
 
-Using this function, we create a similarity matrix that captures how similarly each pair of EPGs voted. From this matrix, we apply PCA (Principal Component Analysis) to reduce the data to two dimensions. This allows us to embed each EPG in a 2D space, where groups with similar voting patterns appear closer together, and those with different patterns are farther apart.
+
+With this method, we can see how similarly each group in the European Parliament (EPGs) voted. We use this information to make a map where each group is a point. Groups that voted in similar ways appear closer together on the map, while those that voted differently are farther apart. This map is created using a technique called PCA, which helps us show complex patterns in just two dimensions.
 
 
 # Clustering of EPG simmilarity
