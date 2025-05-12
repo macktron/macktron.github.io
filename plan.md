@@ -2,8 +2,7 @@ Introduction. Motivitationa.
 
 Explain polarisation trends in voters. Say that we want to see if it’s also present within the parliament. Include plot about voting polarisation.
 
-Explain voting process, roll-call votes, briefly.
-Policy areas?
+Explain voting process, roll-call votes, briefly?
 
 Explain rice index. Give example of the rice index / good graph / apple and bananas.
 
