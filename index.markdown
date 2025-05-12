@@ -131,6 +131,18 @@ Agricultural policy is primarily governed through the Common Agricultural Policy
 
 
 * **Gender Equality**
+
+<ul>
+  <li>
+    <span style="font-weight: bold;">Gender Equality</span> – 
+    This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender.
+    <details style="display: inline;">
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[more]</summary>
+      MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
+    </details>
+  </li>
+</ul>
+
 <p>This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender. <details style="display: inline;"><summary><span style="color: blue; font-weight: bold; display: inline;">[more]</span></summary> MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.</details></p>
 
 * **Gender Equality**
