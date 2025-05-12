@@ -96,7 +96,7 @@ To help understand the nature of political alignment and divvision within the Eu
     <span style="font-weight: bold;">Budgetary Control</span> – 
     This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight.
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[more]</summary>
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
       MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
     </details>
   </li>
@@ -173,7 +173,7 @@ To help understand the nature of political alignment and divvision within the Eu
     <span style="font-weight: bold;">Environment & Public Health</span> – 
     A high-priority and expansive domain, this area includes votes on environmental regulation (e.g., climate change, biodiversity, pollution control) and health-related policies (e.g., pandemic preparedness, food safety, cross-border healthcare).
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">➕ [more]</summary>
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
       MEPs debate legislative proposals aiming to balance ecological sustainability and public well-being with economic interests. Disagreement often arises over regulatory stringency, climate targets, and the role of innovation in solving environmental challenges.
     </details>
   </li>
@@ -184,7 +184,7 @@ To help understand the nature of political alignment and divvision within the Eu
     <span style="font-weight: bold;">Development</span> – 
     Development policy focuses on the EU’s engagement with lower-income countries through humanitarian aid, technical assistance, and economic partnerships.
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">➕ [more]</summary>
+      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
       MEPs vote on funding for global development projects, EU contributions to international organizations, and programs promoting democracy, gender equality, education, and poverty reduction. The topic reflects the EU’s identity as a normative global actor and often connects to broader foreign policy and trade agendas.
     </details>
   </li>
@@ -218,7 +218,6 @@ We perform the PCA clustering process using the same custom index as before, but
 
 * In **2020**, a major divergence emerges between **EPP** and **IDG** across multiple policy areas. COVID-19 debates — on vaccines, lockdowns, recovery funds, and public health — force parties to take clear stances. IDG often resisted joint EU responses, while EPP leaned toward centralized action, leading to increased separation in voting similarity.
 
-### Conclusion
 
 Crises and high-stakes policy moments — like the **Eurozone crisis (2012)** or the **COVID-19 pandemic (2020)** — act as catalysts for realignment and polarization in the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: **pro-EU integration vs. nationalist opposition**.
 
@@ -228,7 +227,14 @@ These evolving patterns help explain the **structural polarization** seen in rec
 
 ## Yearly voting heatmap
 
-Based on percentage of yes votes in areas
+Here’s a cleaner, more polished markdown version of your text, with better structure, phrasing, and links to relevant sources:
+
+---
+
+### Yearly Voting Heatmap
+
+This heatmap shows the percentage of **MEPs (Members of the European Parliament)** from each party group voting *"yes"* to legislation across different policy areas over time. It's a useful tool to visually grasp where party groups tend to agree or diverge in their policy preferences.
+
 
 <div style="display: flex; justify-content: center;">
   <iframe 
@@ -239,9 +245,20 @@ Based on percentage of yes votes in areas
 </div>
 
 
+### Observed Patterns
 
+* **IDG (Identity & Democracy)** and **NI (Non-Attached Members)** consistently show **low support** for most legislative proposals, especially on environmental, agricultural, and equality-related issues.
+* In contrast, **Greens/EFA**, **S\&D**, and **Renew (REG)** tend to have higher "yes" rates—often aligning on progressive proposals.
+* **Fisheries legislation in 2016** saw unusually high consensus across nearly all groups.
+* **Agriculture in 2019** experienced a **notable spike in "no" votes**, particularly from Greens/EFA and S\&D.
 
+### Why the Rejection of Agriculture Legislation in 2019?
 
+In 2019, proposed reforms to the **Common Agricultural Policy (CAP)** were met with significant resistance from MEPs due to several reasons:
+
+* **Environmental Concerns**: Critics said the CAP continued to subsidize industrial farming practices at odds with the EU’s [Green Deal](https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en) and [Farm to Fork strategy](https://food.ec.europa.eu/horizontal-topics/farm-fork-strategy_en).
+* **Lack of Ambition**: [Slow Food Europe](https://www.slowfood.com/press-releases/slow-food-the-eu-parliaments-vote-confirms-a-disastrous-common-agricultural-policy-which-continue-to-subsidize-an-industrial-destructive-and-unsustainable-farming-model/?utm_source=chatgpt.com) and others argued the proposals did little to support small-scale farmers or biodiversity goals.
+* **Farmer Backlash**: At the same time, [European farmers protested](https://www.theguardian.com/environment/2024/feb/10/theyre-drowning-us-in-regulations-how-europes-furious-farmers-took-on-brussels-and-won?utm_source=chatgpt.com), fearing new rules on pesticide and fertilizer reductions would harm their livelihoods.
 
 ## 1. Parliament-wide Agreement
 
@@ -262,30 +279,41 @@ The Rice index exhibits two pronounced peaks over the 2005–2021 period, both c
 With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed from roughly 0.48 to 0.54 as MEPs coalesced around the €750 billion NextGenerationEU recovery fund, joint vaccine procurement and health-emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national-interest have higher value.
 
 
-## 2. Polarization by Policy Area
+## Polarization by Policy Area
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/agreement_by_policy_area_interactive.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 650px; border: none;"
     loading="lazy">
   </iframe>
 </div>
 
 An interactive multi-select chart overlays the average line in black with colored lines for each policy domain (e.g. fisheries, budgetary control, internal market). Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend.
 
-### 2.2 Identify the Most Polarizing Domains  
-*(to be filled in once variance rankings are computed; here note which areas stray furthest from the average and when.)*
+### Underlying Drivers  
+Over time all policy-area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead, different combinations become more consensual at different moments.
 
-### 2.3 Underlying Drivers  
-Some policy domains are inherently more contentious:
+* **Persistent downward drift in overall cohesion.**
+  The thick “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that, outside crisis episodes, cross-party unanimity has weakened over the last decade.
 
-- **Economic vs. social regulation.** Internal market and budgetary file votes may assemble broad majorities, whereas social affairs or welfare reforms can cleave national party lines.  
-- **Sovereignty issues.** Justice & Home Affairs, constitutional affairs, or enlargement debates often split pro- and anti-federalist forces.  
-- **Interest-group pressure.** Agriculture, fisheries, and environmental files see intense lobbying from sectoral stakeholders, driving MEPs to break from their party if domestic interests call for it.  
+* **Legal Affairs leads volatility.**
+  Of all ten portfolios, the legal-affairs curve shows the greatest amplitude. It spikes to the top of the chart during emergency votes then falls sharply back toward the bottom in following years. This pattern with large abrupt swings marks it as the most momentarily consensual but least stable area.
 
-Exploring the most variable policy areas will help us diagnose what kinds of issues drive the Parliament’s cohesion up or down.
+* **Consistent underperformance of social and environmental files.**
+  The employment & social-affairs and environment & public-health lines spend significantly more time below the average than above. Their muted peaks and deeper troughs reflect ideological splits on labor and environmental regulation even when other areas diverge.
 
----
+* **Mid-cycle leadership of culture & education and regional development.**
+  Outside of major crises the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader, more stable majorities in routine legislative periods.
+
+* **COVID-period surge in specific portfolios.**
+  At the onset of the pandemic, the Rice index for culture & education, international trade and regional development all exhibit pronounced upward jumps—each rising well above the overall average—reflecting rapid cross-party alignment on recovery funding, joint vaccine procurement and regional aid measures.
+
+Apart from the two acute spikes triggered by systemic crises, roll-call cohesion in the European Parliament has exhibited a gradual, long-term erosion. Procedural dossiers—most notably legal affairs—demonstrate pronounced volatility, while social and environmental portfolios remain chronically polarized.
+
+**Pandemic Unity circa 2020:** At the start of COVID-19, cohesion increased most sharply in culture & education, international trade and regional development—as MEPs backed recovery funding, joint vaccine procurement and region-specific aid measures.
+
+In inter-crisis periods no single area consistently leads or lags. Each policy line oscillates around the declining average, reflecting how discrete issue-driven debates divides in the absence of a unifying emergency.
+
 
 ## 3. Within-Party Cohesion
 <div style="display: flex; justify-content: center;">

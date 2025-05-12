@@ -19,12 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Markus' GitHub Page
-email: s214422@dtu.dk
+email: markus.swegmark@gmail.com
 description: >-
   This site showcases projects and blog posts by Markus .
 baseurl: ""
 url: "https://macktron.github.io"
-twitter_username: your_twitter_username_here
 github_username: macktron
 
 theme: minima
