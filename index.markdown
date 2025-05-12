@@ -52,17 +52,13 @@ To overcome this, we define a **custom agreement index** that measures the align
 
 ![Rice Index](images/custom_index.png)
 
-
 Where:
+* %Y1 and %Y2 are the percentage of **Yes** votes in Group 1 and Group 2,
+* %N1 and %N2 are the percentage of **No** votes,
+* %A1 and %A2 are the percentage of **Abstain** votes.
+* This approach allows us to capture how **similarly** two groups voted, rather than how **unified** they are internally.
 
-* $v^{(1)}_i$ and $v^{(2)}_i$ are the number of votes of type $i$ (Yes, No, Abstain) for Group 1 and Group 2 respectively.
-* $\sum_j v^{(1)}_j$ and $\sum_j v^{(2)}_j$ are the total number of votes cast by each group.
-* The value ranges from **0** (completely different voting) to **1** (identical vote distribution).
-
-This approach allows us to capture how **similarly** two groups voted, rather than how **unified** they are internally.
-
-Using this function we can create a simmilarity matrix
-
+Using this function, we create a similarity matrix that captures how similarly each pair of EPGs voted. From this matrix, we apply PCA (Principal Component Analysis) to reduce the data to two dimensions. This allows us to embed each EPG in a 2D space, where groups with similar voting patterns appear closer together, and those with different patterns are farther apart.
 
 
 # Clustering of EPG simmilarity
@@ -156,9 +152,9 @@ This line chart shows the annual average Rice index for **all** roll-call votes.
 
 ### 1.2 Interpretation of General Agreement 
 The graph shows a maximum variation of about 20 %. Looking at the "spikes" and thus the periods with most disagreement.
-The Rice index exhibits two pronounced peaks over the 2005–2021 period, both coinciding with systemic crises. In 2008, the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial-stability measures during the global banking collapse. Following this a gradual decline ensued—reaching a trough near 0.47 by 2019—driven by intensifying sovereign-debt disputes, the expansion of populist and Eurosceptic factions, and the polarization induced by the Brexit debate. [**Reference for EU Policies**](https://www.gisreportsonline.com/r/brexit-society-europe/)
+The Rice index exhibits two pronounced peaks over the 2005–2021 period, both coinciding with systemic crises. In 2008, the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial-stability measures during the global banking collapse. Following this a gradual decline ensued—reaching a trough near 0.47 by 2019—driven by intensifying sovereign-debt disputes, the expansion of populist and Eurosceptic factions, and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)
 
-With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed from roughly 0.48 to 0.54 as MEPs coalesced around the €750 billion NextGenerationEU recovery fund, joint vaccine procurement and health-emergency protocols. [**Reference for EU Policies**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national-interest have higher value.
+With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed from roughly 0.48 to 0.54 as MEPs coalesced around the €750 billion NextGenerationEU recovery fund, joint vaccine procurement and health-emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national-interest have higher value.
 
 
 ## 2. Polarization by Policy Area
@@ -170,8 +166,7 @@ With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed 
   </iframe>
 </div>
 
-### 2.1 Chart: Agreement Trends by Policy Area  
-Our interactive multi-select chart overlays the average line in black with colored lines for each policy domain (e.g. fisheries, budgetary control, internal market). Hovering over any point shows (Policy Area, Year, Rice). You can add or remove domains to compare their dynamics against the overall trend.
+An interactive multi-select chart overlays the average line in black with colored lines for each policy domain (e.g. fisheries, budgetary control, internal market). Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend.
 
 ### 2.2 Identify the Most Polarizing Domains  
 *(to be filled in once variance rankings are computed; here note which areas stray furthest from the average and when.)*
