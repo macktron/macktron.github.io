@@ -28,7 +28,6 @@ Within the european parliment there are coaliattion within the parlinent over di
 <div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
   <iframe 
     src="/images/epg_table_bokeh.html"
-    style="width: 90vw; max-width: 1000px; height: 700px; border: none; display: block; margin: 0; padding: 0;"
     loading="lazy">
   </iframe>
 </div>
