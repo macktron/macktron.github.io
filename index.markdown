@@ -225,13 +225,7 @@ These evolving patterns help explain the **structural polarization** seen in rec
 
 
 
-## Yearly voting heatmap
-
-Here’s a cleaner, more polished markdown version of your text, with better structure, phrasing, and links to relevant sources:
-
----
-
-### Yearly Voting Heatmap
+## Yes votes per EPG over Policy Areas
 
 This heatmap shows the percentage of **MEPs (Members of the European Parliament)** from each party group voting *"yes"* to legislation across different policy areas over time. It's a useful tool to visually grasp where party groups tend to agree or diverge in their policy preferences.
 
