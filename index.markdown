@@ -16,11 +16,14 @@ This project uses data obtained from VoteWatch Europe, an independent organizati
 
 The roll-all votes detail how each member of the European Parliament (MEP) voted on individual areas of leglislation, e.g. whether they voted for, against abstained. These records are enriched with metadata such as the MEP’s country, national party, and European Parliamentary Group (EPG).
 
-We will analyze long-term trends in parliamentary voting behaviour to help identify shifts in consensus and division across parties, time periods, and policy areas. Our project seeks to reveal how political structures within the European Union are evolving by systematically studying the outcomes and alignments within the European Parliament.
+The aim of the analysis of long-term trends in parliamentary voting behaviour will help identify shifts in consensus and division across parties, time periods, and policy areas. This project seeks to reveal how political structures within the European Union are evolving by systematically studying the outcomes and alignments within the European Parliament.
 
-Our goal is to present these findings through intuitive, interactive visualizations that allow you to explore voting patterns in depth. We want to make it easier to detect trends in polarization, assess party cohesion, and understand which policy domains generate the most division or consensus. Ultimately, the project is intended to support a clearer, data-driven understanding of European parliamentary politics.
+The goal is to present these findings through intuitive, interactive visualizations that allow you the reader to explore voting patterns in depth. The aim is to make it easier to detect trends in polarization, assess party cohesion, and understand which policy domains generate the most division or consensus. Ultimately, the project is intended to support a clearer, data-driven understanding of European parliamentary politics.
 
+### Policy Areas###
+Each legislative vote in the European Parliament is associated with a policy area; a thematic classification that indicates the primary subject or focus of the vote. These categories help structure the vast range of EU legislative activity and are used by parliamentary committees and documentation systems to track and organize legislation. Policy areas range from broad domains like environment, budget, and foreign affairs to more specific issues such as digital regulation or public health. They serve as an important analytical layer for understanding what kinds of issues are being voted on, how often they arise, and how political divisions manifest across different types of legislation.
 
+To help understand the nature of political alignment and divvision within the European Parliament, the roll-call votes categorized by legislati
 
 
 
@@ -49,8 +52,15 @@ Where:
 
 
 
+## Visualization 3: Interactive Bokeh Visualization
 
-
+<div style="display: flex; justify-content: center;">
+  <iframe 
+    src="/images/ep_voting_yearly_heatmap.html"
+    style="width: 90vw; max-width: 1000px; height: 700px; border: none;"
+    loading="lazy">
+  </iframe>
+</div>
 
 
 
