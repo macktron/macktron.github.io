@@ -29,9 +29,6 @@ By analyzing these records over time and across different policy areas, we aim t
 
 ---
 
-![A lighter moment](images/original.png)
-*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*
-
 
 # European Parliament Groups (EPGs)
 Within the European Parliament, Members of the European Parliament (MEPs) are organized into transnational political groups called European Parliament Groups (EPGs). These groups bring together national parties from different EU countries that share similar political ideologies.
@@ -92,7 +89,7 @@ The interactive chart overlays the average line in black with colored lines for 
 Over time all policy area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead different combinations become more consensual at different moments.
 
 * **Persistent downward drift in overall cohesion.**
-  The thick “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that, outside crisis episodes, cross-party unanimity has weakened over the last decade.
+  The “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that outside crisis episodes, cross-party agreement has weakened over the last decade.
 
 * **Legal Affairs leads volatility.**
   Of all ten portfolios, the legal-affairs curve shows the greatest amplitude. It spikes to the top of the chart during emergency votes then falls sharply back toward the bottom in following years. This pattern with large abrupt swings marks it as the most momentarily consensual but least stable area.
@@ -156,6 +153,9 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 [Read the full analysis here](/policy_areas/)
 
+
+![A lighter moment](images/original.png)
+*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*
 
 
 # Political polarization between different EPGs
