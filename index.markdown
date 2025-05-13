@@ -13,15 +13,15 @@ In the last 20 years, political polarization has increased across Europe, reshap
 
 A [2023 report by the European Commission](https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en)🌐 highlights how polarization, particularly since the mid-2010s, has become a growing concern for democratic stability and local governance across EU member states.
 
-To explore whether this broader societal polarization is mirrored in formal decision-making, we turn to the European Parliament, the EU’s central legislative body.
+To explore whether this broader societal polarization is mirrored in formal decision-making, we turn to the European Parliament, the EU's central legislative body.
 
 ---
 
-Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**🌐, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. [Read more about dataset](/dataset/)📂. By analyzing these records over time, we aim to measure:
+Data was obtained from **[VoteWatch Europe](https://cadmus.eui.eu/entities/publication/d201abf0-dfaf-50c1-82bc-0447c399db33)**🌐, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. [Read more about dataset](/dataset/)📂. By analyzing these records over time, we aim to measure:
 * How cohesion within eurpean parliment group evolves,
 * How closely political groups align with each other,
 * Within what policy areas divisions emerges,
-* And whether there is a long-term trend toward greater fragmentation or cohesion.
+* Whether there is a long-term trend toward greater fragmentation or cohesion.
 
 ---
 
@@ -61,10 +61,10 @@ A common metric for internal group agreement is the **Rice Index**, which produc
   </iframe>
 </div>
 
-The graph shows the annual average Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity). 
+The graph shows the average annual Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity). 
 
 ### Interpretation of General Agreement 
-Looking at the "spikes" and thus the periods with most disagreement the index exhibits two pronounced peaks over the 2005–2021 period both overlapping with systemic crises. In 2008 the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial stability measures during the global banking collapse. Following this a gradual decline ensued a near 0.47 by 2019 driven by intensifying sovereign debt disputes and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)🌐
+Looking at the "spikes" and thus the periods with most disagreement the index exhibits two pronounced peaks over the 2005-2021 period both overlapping with systemic crises. In 2008 the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of urgent financial stability measures during the global banking collapse. Following this a gradual decline ensued a near 0.47 by 2019 driven by intensifying sovereign debt disputes and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)🌐
 
 With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed to 0.54 as MEPs unified around the €750 billion NextGenerationEU recovery fund, joint vaccine programs and health emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en)🌐
 
@@ -84,14 +84,14 @@ Examining voting patterns by individual policy area reveals the underlying ideol
   </iframe>
 </div>
 
-The interactive chart overlays the average line in black with colored lines for each policy area. Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend.
+The interactive chart overlays the average rice index (black line), with colored lines for each policy area. Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend by clicking on the policy name in the grey box.
 
 
 ### Underlying Drivers  
-Over time all policy area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead different combinations become more consensual at different moments.
+Over time, all policy area lines weave around an "average" curve thus there's no single area that always leads or always lags. Instead, different combinations become more consensual at different moments.
 
 * **Persistent downward drift in overall cohesion.** 📉
-  The “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that outside crisis episodes, cross-party agreement has weakened over the last decade.
+  The "Average" line steadily slides from above-mid-range toward the lower half of the scale, indicating that outside of crisis episodes, cross-party agreement has weakened over the last decade.
 
 * **Legal Affairs leads volatility.** 👨🏻‍⚖️
   Of all ten areas the legal-affairs curve shows the greatest amplitude. It spikes to the top of the chart during emergency votes then falls sharply back toward the bottom in following years. This pattern with large spontaneous swings marks it as the most momentarily consensual but least stable area.
@@ -100,10 +100,10 @@ Over time all policy area lines weave around an “average” curve thus there�
   The employment & social-affairs and environment & public-health lines spend significantly more time below the average than above. Their muted peaks and deeper troughs reflect ideological splits on labor and environmental regulation even when other areas diverge.
 
 * **Mid-cycle leadership of culture & education and regional development.** 📚
-  Outside of major crises the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader more stable majorities in routine legislative periods.
+  Outside of major crises, the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader and more stable majorities in routine legislative periods.
 
 * **COVID-period surge in specific areas.** 🦠
-  At the start of the pandemic the Rice index for culture & education, international trade and regional development all exhibit pronounced upward jumps and each rising well above the overall average. This reflects rapid cross-party alignment on recovery funding as mentioned before.
+  At the start of the pandemic the Rice index for culture & education, international trade and regional development all exhibit pronounced jumps and each rising well above the average. This reflects rapid cross-party alignment on recovery funding as mentioned before.
 
 Apart from the two acute spikes triggered by systemic crises, roll-call cohesion in the European Parliament seem exhibited a gradual, long-term erosion as soon as soon as the crisis periods are over. Procedural areas, notably legal affairs, demonstrate pronounced volatility, while social and environmental areas remain staticly polarized.
 
