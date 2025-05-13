@@ -13,50 +13,36 @@
         font-family: sans-serif;
       }
 
-      /* Progress bar container (full width background) */
+      /* Progress list in lower-left corner */
       #progress-container {
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
+        bottom: 1em;
+        left: 1em;
         background: rgba(255,255,255,0.9);
         box-shadow: 0 1px 4px rgba(0,0,0,0.1);
         z-index: 1000;
-      }
-      /* Inner wrapper to constrain width to main content */
-      #progress-container .progress-inner {
-        max-width: 800px;     /* match .content max-width */
-        margin: 0 auto;
-        padding: 0.5em 1em;    /* same padding as .content */
+        padding: 0.5em;
+        border-radius: 0.5em;
       }
       #progress-nav {
         display: flex;
+        flex-direction: column;
         list-style: none;
         margin: 0;
         padding: 0;
-        overflow-x: auto;
       }
       #progress-nav li {
-        flex: none;
-        margin: 0 0.5em;
+        margin: 0.3em 0;
       }
       #progress-nav li a {
         text-decoration: none;
         color: #666;
         font-size: 0.9em;
-        padding-bottom: 0.2em;
-        border-bottom: 2px solid transparent;
-        transition: color 0.2s ease, border-color 0.2s ease;
+        transition: color 0.2s ease, font-weight 0.2s ease;
       }
       #progress-nav li.active a {
         color: #000;
-        border-color: #2c3e50;
         font-weight: 600;
-      }
-
-      /* Push content down so it isn’t hidden under the fixed nav */
-      main.content {
-        padding-top: 3em;
       }
 
       /* Hero section */
@@ -106,11 +92,9 @@
   </head>
 
   <body>
-    <!-- PROGRESS BAR -->
+    <!-- PROGRESS LIST -->
     <div id="progress-container">
-      <div class="progress-inner">
-        <ul id="progress-nav"></ul>
-      </div>
+      <ul id="progress-nav"></ul>
     </div>
 
     <!-- HERO -->
