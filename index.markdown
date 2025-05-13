@@ -42,7 +42,7 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 *Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017)🌐.*
 
 
-## Parliament-wide Polarization 🌈
+## Parliament-wide Polarization
 
 
  Polarization is a fairly abstract concept but it can be quantified using the voting records of all Members of the European Parliament (MEPs)
@@ -68,7 +68,7 @@ In both instances the data indicate that extreme external shocks substantially i
 
 ---
 
-## Polarization by Policy Area 💶⚔️🌱
+## Polarization by Policy Area
 
 Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area](/policy_areas_explained/)📂
 
@@ -107,7 +107,7 @@ Apart from the two acute spikes triggered by systemic crises, roll-call cohesion
 In inter-crisis periods no single area consistently leads or lags. Each policy line oscillates around the declining average, reflecting how issue driven debates divides in the absence of a unifying emergency.
 
 
-## Internal Group Cohesion 🤼‍♂️
+## Internal Group Cohesion
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/02_within_party_agreement.html"
@@ -132,7 +132,7 @@ Systemic shocks, most notably again the global financial crisis and the COVID-19
 **Implications**
 The data demonstrate that ideological compactness and formal group structures are the primary determinants of sustained voting agreement. Conversely, diverse coalitions fail to generate stable majorities except under extreme external pressure. In the absence of such shocks the less radical groups stay unified and are thus less prone to internal disagreement, both during crisis and stable periods. 
 
-## Group Disagreement by Policy Area 👥💶⚔️🌱
+## Group Disagreement by Policy Area
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/04_bar_rice_by_policy_and_party.html"
@@ -162,12 +162,12 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 Understanding the similarity in voting behavior between different EPGs requires more than conventional measures. [The Rice Index](/riceindex/)📂, commonly used to quantify intra-group cohesion, is limited in this context since it evaluates agreement within a single group, but does not account for variations in group size or the frequency of abstentions.
 
-## Measuring Inter-Group Similarity 🔗👥
+## Measuring Inter-Group Similarity
 
 To overcome these limitations, a [custom agreement index](/customindex/)📂 is applied. This metric compares how two groups distribute their votes across the categories Yes✅, No🛑, and Abstain🤷🏻‍♂️. It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
 [Learn more about the Custom Index](/customindex/)📂
 
-## Visualizing Voting Similarity ⚖️
+## Visualizing Voting Similarity
 
 Based on the calculated similarities, clustering is constructed such that each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer to each other🫱🏻‍🫲🏾, while those with more divergent behavior are farther apart💔. [Learn more about the clustering](/pca/)
 
@@ -208,7 +208,7 @@ The following table summarizes the most and least similar EPG pairings annually�
 
 
 
-## Voting Similarity Across Policy Areas 🫱🏻‍🫲🏾💶⚔️🌱👥 
+## Voting Similarity Across Policy Areas
 
 
 The PCA clustering process is applied using the same custom agreement index as in the general analysis, but performed separately for each policy area. This allows for the examination of voting alignment and polarization within specific domains of legislation.
