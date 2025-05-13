@@ -6,9 +6,13 @@ title: "Analyzing Polarization in the European Parliament"
 
 # Introduction
 
-![For illustrations purposes only](images/voting_polarization_USA.png)
+![Polarization in USA](images/polarization_USA.png)
 
-In recent years, questions about political alignment, ideological fragmentation, and party cohesion habe become increasingly relevant within the European Union. As one of the most important legalislative bodies in the European Union, the European Parliament offers a valuable lens through which to study these evolving political dynamics.
+In the last years, polarization has
+
+Media: https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en
+
+In recent years, questions about political alignment, ideological fragmentation, and party cohesion have become increasingly relevant within the European Union. As one of the most important legalislative bodies in the European Union, the European Parliament offers a valuable lens through which to study these evolving political dynamics.
 
 This project uses data obtained from VoteWatch Europe, an independent organization that tracks and curates etailed information on the voting behavior of MEPs. Covering all recorded roll-call votes between 2004 and 2022, the dataset includes individual voting records as well as contextual metadata about the legislative proposals themselves.
 
@@ -18,6 +22,7 @@ The aim of the analysis of long-term trends in parliamentary voting behaviour wi
 
 The goal is to present these findings through intuitive, interactive visualizations that allow you the reader to explore voting patterns in depth. The aim is to make it easier to detect trends in polarization, assess party cohesion, and understand which policy domains generate the most division or consensus. Ultimately, the project is intended to support a clearer, data-driven understanding of European parliamentary politics.
 
+![Fun image to "lätta upp stämningen"](images/original.png)
 
 
 # European Parliament Groups (EPGs)
@@ -40,112 +45,6 @@ A common metric for internal group agreement is the **Rice Index**, which produc
 
 
 
-# Policy Area
-
-To help understand the nature of political alignment and divvision within the European Parliament, the roll-call votes categorized by legislative topic. Each voote is tagged with a policy area that describes its sustantive focus, allowing us to analyze trends within and across issue domains. These include:
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Budgetary Control</span> – 
-    This policy  focuses on overseeing how the European Union’s budget is spent. It includes votes on the discharge of annual budgets, audits of EU institutions, reports on financial irregularities, and recommendations for improved fiscal oversight.
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      MEPs use these votes to examine and evaluate spending by the European Commission, European agencies, and other bodies to ensure accountability, transparency, and adherence to EU rules. While often technical, this domain reflects deeper political debates about institutional trust and financial governance.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Agriculture</span> – 
-    This area includes votes on subsidies for farmers, environmental conditions for aid, food production standards, and rural development strategies. 
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      Agricultural policy is primarily governed through the Common Agricultural Policy (CAP), one of the EU's largest and most influential frameworks. The topic frequently highlights tensions between environmental sustainability, food security, and economic support for agricultural communities. It also brings into focus national interests, as agricultural priorities vary widely across member states.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Gender Equality</span> – 
-    This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender.
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Gender Equality</span> – 
-    This policy focuses on eliminating discrimination and promoting fair treatment regardless of gender.
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      MEPs vote on initiatives such as closing the gender pay gap, combatting gender-based violence, increasing female representation in political and corporate leadership, and ensuring work-life balance. These votes often intersect with broader debates on social justice, cultural norms, and human rights, with varying levels of support across political and regional lines.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">International Trade</span> – 
-    This area involves the EU’s commercial relationships with non-EU countries, including trade agreements, tariff policy, and regulatory cooperation.      <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      Votes often concern major trade deals (e.g., with Canada, Japan, or Mercosur), export controls, and trade sustainability clauses. This policy area illustrates ideological splits between support for liberalized global markets and calls for stronger protections for labor rights, environmental standards, and strategic industries.
-    </details>
-  </li>
-</ul>
-
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Fisheries</span> – 
-    This area is governed by the Common Fisheries Policy (CFP), this domain includes legislation on the sustainable management of marine resources, fishing quotas, fleet regulation, and cooperation with non-EU countries on fishing rights.
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      Fisheries policy is vital for coastal economies and often involves negotiations between ecological goals (e.g., preventing overfishing) and economic pressures from national fishing industries. This area can reveal regional divides, especially among member states with significant maritime sectors.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Employment & Social Affairs</span> – 
-    This topic covers EU legislation on labor markets, workers' rights, social protections, and inclusive employment policies.
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      Votes address issues such as working conditions, minimum wages, occupational health and safety, social security coordination, and labor mobility. This area is ideologically charged, with progressive and centrist parties typically supporting stronger labor protections, while others advocate for labor market flexibility and reduced regulation.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Environment & Public Health</span> – 
-    A high-priority and expansive domain, this area includes votes on environmental regulation (e.g., climate change, biodiversity, pollution control) and health-related policies (e.g., pandemic preparedness, food safety, cross-border healthcare).
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      MEPs debate legislative proposals aiming to balance ecological sustainability and public well-being with economic interests. Disagreement often arises over regulatory stringency, climate targets, and the role of innovation in solving environmental challenges.
-    </details>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <span style="font-weight: bold;">Development</span> – 
-    Development policy focuses on the EU’s engagement with lower-income countries through humanitarian aid, technical assistance, and economic partnerships.
-    <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      MEPs vote on funding for global development projects, EU contributions to international organizations, and programs promoting democracy, gender equality, education, and poverty reduction. The topic reflects the EU’s identity as a normative global actor and often connects to broader foreign policy and trade agendas.
-    </details>
-  </li>
-</ul>
-
-[**Reference for EU Policies**](https://www.europarl.europa.eu/topics/en/all)
-
-
 ## Parliament-wide Agreement
 
 <div style="display: flex; justify-content: center;">
@@ -158,7 +57,7 @@ To help understand the nature of political alignment and divvision within the Eu
 
 This line chart shows the annual average Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity).  A hover tooltip reveals the exact Rice value for each year.
 
-### 1.2 Interpretation of General Agreement 
+### Interpretation of General Agreement 
 The graph shows a maximum variation of about 20 %. Looking at the "spikes" and thus the periods with most disagreement.
 The Rice index exhibits two pronounced peaks over the 2005–2021 period, both coinciding with systemic crises. In 2008, the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial-stability measures during the global banking collapse. Following this a gradual decline ensued—reaching a trough near 0.47 by 2019—driven by intensifying sovereign-debt disputes, the expansion of populist and Eurosceptic factions, and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)
 
@@ -166,6 +65,10 @@ With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed 
 
 
 ## Polarization by Policy Area
+
+Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area here](/policy_areas_explained/)
+
+
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/agreement_by_policy_area_interactive.html"
@@ -205,7 +108,7 @@ In inter-crisis periods no single area consistently leads or lags. Each policy l
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/02_within_party_agreement.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 550px; border: none;"
     loading="lazy">
   </iframe>
 </div>
@@ -243,9 +146,6 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 
 [Read the full analysis here](/policy_areas/)
-
-
-## 4. Conclusions & Implications
 
 
 
