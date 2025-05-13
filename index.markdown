@@ -36,10 +36,11 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 
 [See which policies European Parliament groups support most](/epgyesvotes/)📂.
 
----
 
-![Polarization in the USA](images/polarization_USA.png)
-*Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017)🌐.*
+![A lighter moment](images/original.png)
+*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*🌐
+
+---
 
 
 ## Parliament-wide Polarization
@@ -150,11 +151,6 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 [Read the full analysis here](/policy_areas/)📂
 
----
-
-
-![A lighter moment](images/original.png)
-*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*🌐
 
 ---
 
