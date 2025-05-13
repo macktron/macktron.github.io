@@ -1,7 +1,7 @@
 ---
 layout: custom_home
 
-title: "Analyzing Polarization in the European Parliament"
+title: "Polarization in the European Parliament"
 ---
 
 ---
@@ -22,7 +22,7 @@ Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**🌐, wh
 ---
 
 
-# European Parliament Groups (EPGs)
+# European Parliament Groups
 Within the European Parliament, Members of the European Parliament (MEPs) are organized into transnational political groups called European Parliament Groups (EPGs). These groups bring together national parties from different EU countries that share similar political ideologies.
 
 In our analysis, we focus on how these EPGs vote on different policy issues, as shifts in their voting patterns can reveal insights about change and polarization within the EU.
