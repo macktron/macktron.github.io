@@ -154,19 +154,18 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 ---
 
-# Political Polarization Between European Parliamentary Groups (EPGs)
+# Political Polarization Between European Parliamentary Groups 
 
 Understanding the similarity in voting behavior between different EPGs requires more than conventional measures. [The Rice Index](/riceindex/), commonly used to quantify intra-group cohesion, is limited in this context since it evaluates agreement within a single group, but does not account for variations in group size or the frequency of abstentions.
 
 ## Measuring Inter-Group Similarity
 
-To overcome these limitations, a [custom agreement index](/customindex/) is applied. This metric compares how two groups distribute their votes across the categories "Yes," "No," and "Abstain." It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
+To overcome these limitations, a [custom agreement index](/customindex/) is applied. This metric compares how two groups distribute their votes across the categories Yes✅, No🛑, and Abstain🤷🏻‍♂️. It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
 [Learn more about the Custom Index](/customindex/)
 
-## Visualizing Voting Alignment
+## Visualizing Voting Alignment ⚖️
 
-This similarity measure is used to analyze how closely different EPGs align in their voting behavior. Based on the calculated similarities, clustering is constructed in which each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer together, while those with more divergent behavior are farther apart. [Learn more about the clustering](/pca/)
-
+Based on the calculated similarities, clustering is constructed in which each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer together🫱🏻‍🫲🏾, while those with more divergent behavior are farther apart💔. [Learn more about the clustering](/pca/)
 
 
 
@@ -179,16 +178,16 @@ This similarity measure is used to analyze how closely different EPGs align in t
 </div>
 
 
-Even though the EPGs shift position from year to year, this is expected in a PCA plot, clear trends between parties can still be observed.
+Even though the EPGs shift position from year to year trends between parties can still be observed.
 
 * The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways.
-* The same goes for **S&D** and **Renew Europe**, they are usually positioned near each other, suggesting they often agree on votes.
-* On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
+* The same goes for **S&D** and **Renew Europe**.
+* On the other hand, the **IDG** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
 * **Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
-* From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded, for example on lockdowns, vaccine strategies, or EU-wide recovery plans, [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
+* From 2005 to 2019, the positions of most groups remain steady. But starting in 2020, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **REG** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded, for example on lockdowns, vaccine strategies, or EU-wide recovery plans, [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
 
 
-The following table summarizes the most and least similar EPG pairings annually, based on voting similarity metrics:
+The following table summarizes the most and least similar EPG pairings annually🗓️:
 
 | Year Range     | Most Similar EPGs     | Least Similar EPGs    |
 |----------------|------------------------|------------------------|
@@ -207,7 +206,7 @@ The following table summarizes the most and least similar EPG pairings annually,
 
 ## How Similar European Parliament Groups Voted Over Time Across Policy Areas
 
-We perform the PCA clustering process using the same custom index as before, but this time we do it separetly per policy area.
+The PCA clustering process is applied using the same custom agreement index as in the general analysis, but performed separately for each policy area. This allows for the examination of voting alignment and polarization within specific domains of legislation.
 
 
 <div style="display: flex; justify-content: center;">
@@ -220,17 +219,91 @@ We perform the PCA clustering process using the same custom index as before, but
 
 
 
-* In **budgetary control**, a clear **realignment** appears in **2012**, during the peak of the **Eurozone debt crisis**. The **EPP (centre-right)** and **Greens/EFA (green-left)**, who previously showed some alignment, start to **diverge sharply**. This coincides with increasing disagreements over fiscal discipline, austerity, and EU-level spending. The crisis pushed parties into more ideologically defined stances. [Read more on the Euro crisis (ECFR)](https://ecfr.eu/article/commentary_the_euro_crisis_is_not_over_yet/)
+* In **budgetary control**, a clear realignment appears in 2012, during the peak of the **Eurozone debt crisis**. The **EPP (centre-right)** and **Greens/EFA (green-left)**, who previously showed some alignment, start to diverge sharply. This coincides with increasing disagreements over fiscal discipline, austerity, and EU-level spending. The crisis pushed parties into more ideologically defined stances. [Read more on the Euro crisis](https://www.investopedia.com/terms/e/european-sovereign-debt-crisis.asp/). By 2013, **REG** starts to shift positions in this area, moving away from its previous closeness with **S&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
 
-* By **2013**, **Renew Europe (REG)** starts to shift positions in this area, moving away from its previous closeness with **S&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
+* In the area of **environment and public health**, we see strong, consistent clustering between **Greens/EFA**, **The Left**, and **S&D**, especially in years like 2018. Their alignment reflects shared support for EU-led climate policy, regulation, and health measures.
 
-* In the area of **environment and public health**, we see strong, consistent **clustering** between **Greens/EFA**, **The Left**, and **S&D**, especially in years like **2018** (see image above). Their alignment reflects shared support for EU-led climate policy, regulation, and health measures.
-
-* In contrast, **IDG (Identity and Democracy Group)** consistently sits **far apart** from other groups on these issues — often opposing EU climate regulations or public health mandates. This matches findings from a 2021 **European Council on Foreign Relations** study, which notes that IDG parties are **among the least likely to support EU-wide cooperation** in areas like climate, migration, or health. [Read the ECFR report](https://ecfr.eu/publication/europes-invisible-divides/)
-
-* In **2020**, a major divergence emerges between **EPP** and **IDG** across multiple policy areas. COVID-19 debates — on vaccines, lockdowns, recovery funds, and public health — force parties to take clear stances. IDG often resisted joint EU responses, while EPP leaned toward centralized action, leading to increased separation in voting similarity.
+* In 2020, a major divergence emerges between **EPP** and **IDG** across multiple policy areas. COVID-19 debates — on vaccines, lockdowns, recovery funds, and public health — force parties to take clear stances. IDG often resisted joint EU responses, while EPP leaned toward centralized action, leading to increased separation in voting similarity.
 
 
-Crises and high-stakes policy moments — like the **Eurozone crisis (2012)** or the **COVID-19 pandemic (2020)** — act as catalysts for realignment and polarization in the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: **pro-EU integration vs. nationalist opposition**.
+Crises and high-stakes policy moments, like the Eurozone crisis (2012) or the COVID-19 pandemic (2020), act as catalysts for polarization in voting patterns of the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: pro-EU integration vs. nationalist opposition.
 
-These evolving patterns help explain the **structural polarization** seen in recent years and give insight into where future political conflict lines may lie in EU policymaking.
+Here is a clean and compact version of the data presented as two separate Markdown tables — one for **most related** EPG pairs and one for **least related**.
+
+---
+
+
+
+The most and least similar EPG pairs are identified for each year or policy area, excluding cases related to *Internal Regulations of the European Parliament*.
+
+
+---
+
+### 🟢 Most Related EPG Pairs
+
+| EPG Pair        | Score | Year | Policy Area          |
+| --------------- | :---: | :--: | -------------------- |
+| Greens/EFA–REG  | 1.000 | 2013 | Petitions            |
+| EPP–REG         | 0.999 | 2022 | International Trade  |
+| Greens/EFA–REG  | 0.999 | 2022 | International Trade  |
+| EPP–Greens/EFA  | 0.998 | 2022 | International Trade  |
+| REG–S\&D        | 0.998 | 2013 | Petitions            |
+| Greens/EFA–S\&D | 0.998 | 2013 | Petitions            |
+| Greens/EFA–S\&D | 0.998 | 2021 | Regional Development |
+| Greens/EFA–S\&D | 0.997 | 2010 | Culture & Education  |
+| Greens/EFA–S\&D | 0.997 | 2022 | Regional Development |
+| Greens/EFA–S\&D | 0.996 | 2011 | Gender Equality      |
+
+---
+
+### 🔴 Least Related EPG Pairs
+
+| EPG Pair       | Score | Year | Policy Area                            |
+| -------------- | :---: | :--: | -------------------------------------- |
+| IDG–REG        | 0.000 | 2018 | Environment, Public Health             |
+| EPP–REG        | 0.000 | 2017 | Employment, Social Affairs             |
+| S\&D–The Left  | 0.000 | 2006 | International Trade                    |
+| IDG–S\&D       | 0.001 | 2020 | Budget                                 |
+| Greens/EFA–REG | 0.001 | 2007 | Constitutional & Institutional Affairs |
+| EPP–S\&D       | 0.001 | 2006 | Constitutional & Institutional Affairs |
+| EPP–S\&D       | 0.001 | 2005 | Environment, Public Health             |
+| EPP–Greens/EFA | 0.001 | 2014 | Budget                                 |
+| EPP–REG        | 0.001 | 2006 | Constitutional & Institutional Affairs |
+| EPP–S\&D       | 0.001 | 2007 | Civil Liberties, Justice, Home Affairs |
+
+---
+# Key Patterns in European Parliament Group Relationships
+
+**Perfect alignment between Greens/EFA–REG on Petitions (2013)**  
+Complete cooperation (1.000) suggests petition matters transcend ideological boundaries. The [European Parliament's petition process](https://www.europarl.europa.eu/at-your-service/en/be-heard/petitions) allows citizens to raise concerns that affect them directly, creating a fundamental democratic connection point where diverse political groups find common ground.
+
+**High cross-ideological cooperation on International Trade (2022)**  
+Three top-scoring relationships (0.998-0.999) involve International Trade, indicating broad consensus on post-Brexit arrangements and global trade policies. This cooperation emerged despite traditional ideological differences, as both [EPP](https://www.eppgroup.eu/what-we-do/foreign-affairs/international-trade) and [Greens/EFA](https://www.greens-efa.eu/en/) supported trade policies with strong environmental and social protections.
+
+**Consistent Greens/EFA–S&D cooperation across policy areas**  
+Stable high cooperation (0.996-0.998) across diverse policy areas from 2010-2022, confirming research showing these groups have high internal cohesion. According to [Cherepnalkoski et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5106041/), the Greens/EFA has consistently been one of the most cohesive political groups in the European Parliament.
+
+**Zero cooperation between EPP–REG on Employment (2017)**  
+Complete opposition (0.000) on Employment and Social Affairs reflects fundamental disagreements on labor market regulation approaches. The [EPP Group](https://www.eppgroup.eu/what-we-do/economy-jobs-the-environment/employment-and-social-affairs) prioritized competitiveness and entrepreneurship while REG focused on worker protections, creating an unbridgeable policy divide.
+
+**Low EPP–S&D cooperation on Constitutional Affairs (2005-2007)**  
+Minimal cooperation (0.001) during this period correlates with tensions following the rejection of the European Constitution in French and Dutch referendums. This represented a rare breakdown in the traditional ["grand coalition"](https://en.wikipedia.org/wiki/Political_groups_of_the_European_Parliament) between these two largest groups.
+
+**Temporal improvement in cooperation**  
+Most low-cooperation scores occur in 2005-2007, while high-cooperation scores dominate in 2021-2022, suggesting increasing consensus-building capability in recent years. This trend reflects the Parliament's evolution toward more [issue-based rather than purely ideological voting patterns](https://en.m.wikipedia.org/wiki/European_Parliament).
+
+**Greens/EFA highest internal cohesion**  
+Research shows Greens/EFA maintained 96% voting cohesion in the 8th Parliament (2014-2019), the highest among all political groups according to [Warasin et al. (2019)](https://link.springer.com/chapter/10.1007/978-3-030-94012-6_1). This cohesion stems from shared environmental priorities and effective internal coordination mechanisms.
+
+
+
+
+# Final Thoughts 
+
+In sum, the analysis reveals a European Parliament that responds predictably to external shocks. During crises such as the global financial meltdown and the COVID-19 emergency, MEPs unite across ideological lines to pass landmark measures, driving temporary spikes in the Rice Index and drawing disparate groups into closer voting alignment. Yet in the mid-crisis times overall cohesion erodes, procedural areas like legal affairs oscillate wildly, and social and environmental areas remain stubbornly divided.
+
+At the party level, formal structures and shared platforms enforce sustained unity. Mainstream factions like EPP, S&D, Renew Europe and Greens/EFA—consistently rank highest in internal agreement, while populist outliers (IDG) and non-attached MEPs are consistently agreeing a very little. Crisis-induced voting induce even for these loose coalitions a momentary alignment, but once the emergency recedes, they slip back into deep internal splits.
+
+Intergroup similarity further shows Europe’s fault lines. Greens/EFA and The Left often vote in similar, as do S&D and Renew Europe, while IDG and non-attached members remain diverged from other groups. Clustering by policy area shows where lines of heated disagreement run deepest. Budgetary control cleaves liberal and conservative camps during fiscal crises, climate and health unite the pro-integration blocs, and agricultural and trade areas fracture the moderate middle.
+
+Together, these dynamics tells the story of an institution both resilient and strained. The European Parliament can find unity when necessity demands but in the more routine rhythm of legislation, the strong forces of ideology, national interest and institutional design forces disagreements. One might find it reassuring to see a higher level of collaboration during crisis, but how long do we have to wait for the next pandemic to unite us...?🦠🟰🫱🏻‍🫲🏾
