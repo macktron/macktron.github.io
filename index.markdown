@@ -7,13 +7,13 @@ title: "Analyzing Polarization in the European Parliament"
 ---
 In the last 20 years, political polarization has increased across Europe, reshaping democratic debate and trust in institutions. One key driver of this trend is the evolving media landscape. As traditional news sources lose dominance, fragmented platforms and social media algorithms increasingly amplify ideological divides.
 
-A [2023 report by the European Commission](https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en) highlights how polarization, particularly since the mid-2010s, has become a growing concern for democratic stability and local governance across EU member states.
+A [2023 report by the European Commission](https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en)🌐 highlights how polarization, particularly since the mid-2010s, has become a growing concern for democratic stability and local governance across EU member states.
 
 To explore whether this broader societal polarization is mirrored in formal decision-making, we turn to the European Parliament, the EU’s central legislative body.
 
 ---
 
-Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. [Read more about dataset](/dataset/). By analyzing these records over time, we aim to measure:
+Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**🌐, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. [Read more about dataset](/dataset/)📂. By analyzing these records over time, we aim to measure:
 * How cohesion within eurpean parliment group evolves,
 * How closely political groups align with each other,
 * Within what policy areas divisions emerges,
@@ -34,11 +34,11 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 
 ![MEP Table](images/epg_table_bokeh.png)
 
-[See which policies European Parliament groups support most](/epgyesvotes/).
+[See which policies European Parliament groups support most](/epgyesvotes/)📂.
 
 
 ![Polarization in the USA](images/polarization_USA.png)
-*Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017).*
+*Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017)🌐.*
 
 ---
 
@@ -47,7 +47,7 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 
  Polarization is a fairly abstract concept but it can be quantified using the voting records of all Members of the European Parliament (MEPs)
 
-A common metric for internal group agreement is the **Rice Index**, which produces a score between 0 and 1. This gives a simple, quantifiable measure of how unified a group is in its voting behavior. [Learn more about the Rice Index](/riceindex/).
+A common metric for internal group agreement is the **Rice Index**, which produces a score between 0 and 1. This gives a simple, quantifiable measure of how unified a group is in its voting behavior. [Learn more about the Rice Index](/riceindex/)📂.
 
 
 
@@ -64,16 +64,16 @@ A common metric for internal group agreement is the **Rice Index**, which produc
 The graph shows the annual average Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity). 
 
 ### Interpretation of General Agreement 
-Looking at the "spikes" and thus the periods with most disagreement the index exhibits two pronounced peaks over the 2005–2021 period both overlapping with systemic crises. In 2008 the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial stability measures during the global banking collapse. Following this a gradual decline ensued a near 0.47 by 2019 driven by intensifying sovereign debt disputes and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)
+Looking at the "spikes" and thus the periods with most disagreement the index exhibits two pronounced peaks over the 2005–2021 period both overlapping with systemic crises. In 2008 the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial stability measures during the global banking collapse. Following this a gradual decline ensued a near 0.47 by 2019 driven by intensifying sovereign debt disputes and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)🌐
 
-With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed to 0.54 as MEPs unified around the €750 billion NextGenerationEU recovery fund, joint vaccine programs and health emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) 
+With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed to 0.54 as MEPs unified around the €750 billion NextGenerationEU recovery fund, joint vaccine programs and health emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en)🌐
 
 In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national interest provoke disagreements.
 
 
 ## Polarization by Policy Area 🌐📈⚔️🌱
 
-Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area here](/policy_areas_explained/)
+Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area here](/policy_areas_explained/)📂
 
 
 <div style="display: flex; justify-content: center;">
@@ -151,26 +151,26 @@ Across the European Parliament’s political groups, voting cohesion clusters ar
 Together, these patterns confirm that **ideological compactness** and **institutional cohesion** are the principal drivers of stable voting unity. Formal groups with clear, shared agendas (Greens/EFA, S&D, EPP) achieve higher, more consistent Rice indices in areas central to their identity, while loose coalitions or individuals outside recognized groups struggle to agree on any policy area.
 
 
-[Read the full analysis here](/policy_areas/)
+[Read the full analysis here](/policy_areas/)📂
 
 
 ![A lighter moment](images/original.png)
-*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*
+*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*🌐
 
 ---
 
 # Political Polarization Between European Parliamentary Groups 
 
-Understanding the similarity in voting behavior between different EPGs requires more than conventional measures. [The Rice Index](/riceindex/), commonly used to quantify intra-group cohesion, is limited in this context since it evaluates agreement within a single group, but does not account for variations in group size or the frequency of abstentions.
+Understanding the similarity in voting behavior between different EPGs requires more than conventional measures. [The Rice Index](/riceindex/)📂, commonly used to quantify intra-group cohesion, is limited in this context since it evaluates agreement within a single group, but does not account for variations in group size or the frequency of abstentions.
 
 ## Measuring Inter-Group Similarity
 
-To overcome these limitations, a [custom agreement index](/customindex/) is applied. This metric compares how two groups distribute their votes across the categories Yes✅, No🛑, and Abstain🤷🏻‍♂️. It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
-[Learn more about the Custom Index](/customindex/)
+To overcome these limitations, a [custom agreement index](/customindex/)📂 is applied. This metric compares how two groups distribute their votes across the categories Yes✅, No🛑, and Abstain🤷🏻‍♂️. It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
+[Learn more about the Custom Index](/customindex/)📂
 
 ## Visualizing Voting Alignment ⚖️
 
-Based on the calculated similarities, clustering is constructed in which each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer together🫱🏻‍🫲🏾, while those with more divergent behavior are farther apart💔. [Learn more about the clustering](/pca/)
+Based on the calculated similarities, clustering is constructed in which each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer together🫱🏻‍🫲🏾, while those with more divergent behavior are farther apart💔. [Learn more about the clustering](/pca/)📂
 
 
 
@@ -189,7 +189,7 @@ Even though the EPGs shift position from year to year trends between parties can
 * The same goes for **S&D** and **Renew Europe**.
 * On the other hand, the **IDG** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
 * **Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
-* From 2005 to 2019, the positions of most groups remain steady. But starting in 2020, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **REG** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded, for example on lockdowns, vaccine strategies, or EU-wide recovery plans, [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
+* From 2005 to 2019, the positions of most groups remain steady. But starting in 2020, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **REG** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded, for example on lockdowns, vaccine strategies, or EU-wide recovery plans, [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/)🌐.
 
 
 The following table summarizes the most and least similar EPG pairings annually🗓️:
@@ -224,7 +224,7 @@ The PCA clustering process is applied using the same custom agreement index as i
 
 
 
-* In **budgetary control**, a clear realignment appears in 2012, during the peak of the **Eurozone debt crisis**. The **EPP (centre-right)** and **Greens/EFA (green-left)**, who previously showed some alignment, start to diverge sharply. This coincides with increasing disagreements over fiscal discipline, austerity, and EU-level spending. The crisis pushed parties into more ideologically defined stances. [Read more on the Euro crisis](https://www.investopedia.com/terms/e/european-sovereign-debt-crisis.asp/). By 2013, **REG** starts to shift positions in this area, moving away from its previous closeness with **S&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
+* In **budgetary control**, a clear realignment appears in 2012, during the peak of the **Eurozone debt crisis**. The **EPP (centre-right)** and **Greens/EFA (green-left)**, who previously showed some alignment, start to diverge sharply. This coincides with increasing disagreements over fiscal discipline, austerity, and EU-level spending. The crisis pushed parties into more ideologically defined stances. [Read more on the Euro crisis](https://www.investopedia.com/terms/e/european-sovereign-debt-crisis.asp/)🌐. By 2013, **REG** starts to shift positions in this area, moving away from its previous closeness with **S&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
 
 * In the area of **environment and public health**, we see strong, consistent clustering between **Greens/EFA**, **The Left**, and **S&D**, especially in years like 2018. Their alignment reflects shared support for EU-led climate policy, regulation, and health measures.
 
@@ -233,7 +233,7 @@ The PCA clustering process is applied using the same custom agreement index as i
 
 Crises and high-stakes policy moments, like the Eurozone crisis (2012) or the COVID-19 pandemic (2020), act as catalysts for polarization in voting patterns of the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: pro-EU integration vs. nationalist opposition.
 
-Some votes show up as especially divergent or unified between specific groups. [Find out more about the most distinct simmilarities between EPGs over years and policy areas](/distinctsimilarities/)
+Some votes show up as especially divergent or unified between specific groups. [Find out more about the most distinct simmilarities between EPGs over years and policy areas](/distinctsimilarities/)📂
 
 
 
