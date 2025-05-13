@@ -205,7 +205,7 @@ The following table summarizes the most and least similar EPG pairings annually�
 
 
 
-## Similarity in Votes Over Time Across Policy Areas 🫱🏻‍🫲🏾🕰️📊
+## Votes Over Time Across Policy Areas 🫱🏻‍🫲🏾🕰️📊
 
 The PCA clustering process is applied using the same custom agreement index as in the general analysis, but performed separately for each policy area. This allows for the examination of voting alignment and polarization within specific domains of legislation.
 
