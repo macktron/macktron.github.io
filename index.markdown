@@ -2,6 +2,10 @@
 layout: custom_home
 
 title: "Polarization in the European Parliament"
+
+github_url: https://github.com/ByggeMandBob/your-repo
+zip_url:     /downloads/archive.zip
+tar_url:     /downloads/archive.tar.gz
 ---
 
 ---
