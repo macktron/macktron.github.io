@@ -26,7 +26,7 @@ Data was obtained from **[VoteWatch Europe](https://cadmus.eui.eu/entities/publi
 ---
 
 
-# European Parliament Groups
+# European Parliament Groups 
 Within the European Parliament, Members of the European Parliament (MEPs) are organized into transnational political groups called European Parliament Groups (EPGs). These groups bring together national parties from different EU countries that share similar political ideologies.
 
 In our analysis, we focus on how these EPGs vote on different policy issues, as shifts in their voting patterns can reveal insights about change and polarization within the EU.
@@ -51,7 +51,7 @@ A common metric for internal group agreement is the **Rice Index**, which produc
 
 
 
-## Parliament-wide Agreement
+## Parliament-wide Agreement 🌈
 
 <div style="display: flex; justify-content: center;">
   <iframe 
@@ -87,7 +87,7 @@ Examining voting patterns by individual policy area reveals the underlying ideol
 The interactive chart overlays the average rice index (black line), with colored lines for each policy area. Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend by clicking on the policy name in the grey box.
 
 
-### Underlying Drivers  
+### Underlying Drivers 🤺
 Over time, all policy area lines weave around an "average" curve thus there's no single area that always leads or always lags. Instead, different combinations become more consensual at different moments.
 
 * **Persistent downward drift in overall cohesion.** 📉
@@ -103,14 +103,14 @@ Over time, all policy area lines weave around an "average" curve thus there's no
   Outside of major crises, the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader and more stable majorities in routine legislative periods.
 
 * **COVID-period surge in specific areas.** 🦠
-  At the start of the pandemic the Rice index for culture & education, international trade and regional development all exhibit pronounced jumps and each rising well above the average. This reflects rapid cross-party alignment on recovery funding as mentioned before.
+  At the start of the pandemic the Rice index for culture & education, international trade and regional development all exhibit pronounced jumps with each rising well above the average. This reflects rapid cross-party alignment on recovery funding as mentioned before.
 
 Apart from the two acute spikes triggered by systemic crises, roll-call cohesion in the European Parliament seem exhibited a gradual, long-term erosion as soon as soon as the crisis periods are over. Procedural areas, notably legal affairs, demonstrate pronounced volatility, while social and environmental areas remain staticly polarized.
 
 In inter-crisis periods no single area consistently leads or lags. Each policy line oscillates around the declining average, reflecting how issue driven debates divides in the absence of a unifying emergency.
 
 
-## Within-Party Cohesion
+## Within-Party Cohesion 🤼‍♂️
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/02_within_party_agreement.html"
@@ -129,13 +129,13 @@ Center-right (EPP), social-democrat (S&D), liberal (REG/ALDE) and green (Greens/
 **2. Structural Fragmentation among Outliers**
 Identity & Democracy (IDG) and non-attached members (NI) persistently record the lowest agreement levels. IDG’s index shows the internal split and loosely bound populist alliances. NI, lacking any formal grouping or shared platform, remains the most diverse with Rice values reaching as low as 0.27 after a decline up to 2014.
 
-**3. Crisis-Induced Convergence**
+**3. Crisis-Induced Convergence** 
 Systemic shocks, most notably again the global financial crisis and the COVID-19 pandemic, temporarily elevate cohesion across nearly all groups. Even IDG registers its highest internal alignment during 2020 emergency votes, although it still remains below mainstream levels. Other groups exhibit only small or brief change in cohesion during crises showing their institutional resilience.
 
 **Implications**
 The data demonstrate that ideological compactness and formal group structures are the primary determinants of sustained voting agreement. Conversely, diverse coalitions fail to generate stable majorities except under extreme external pressure. In the absence of such shocks the less radical groups stay unified and are thus less prone to internal disagreement, both during crisis and stable periods. 
 
-### Party Disagreement by Policy Area  
+### Party Disagreement by Policy Area 🌐💶⚔️🌱
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/04_bar_rice_by_policy_and_party.html"
@@ -144,7 +144,7 @@ The data demonstrate that ideological compactness and formal group structures ar
   </iframe>
 </div>
 
-A dropdown-controlled bar chart 📊 shows for the selected party its average Rice index across every policy area. Taller bars (closer to 1) indicate strong internal party agreement on that issue.
+*A dropdown-controlled bar chart 📊 shows for the selected party its average Rice index across every policy area. Taller bars (closer to 1) indicate strong internal party agreement on that issue.*
 
 Across the European Parliament’s political groups, voting cohesion clusters around each faction’s defining priorities. Greens/EFA ☘️ record near unity on environment & public health, employment & social affairs and gender equality which reflects their integrated Green Deal agenda, while S&D remain most cohesive on gender equality, development, budgetary control and culture & education in line with their social democratic platform 🎓. Renew Europe shows moderate agreement on innovation and rights focused areas particularly culture & education and development, but it fractures on international trade🏗️. The Left peaks on gender equality and development but divides sharply on agriculture and trade. EPP maintains strong discipline in justice-related areas (culture & education, legal affairs) but reveals tension in agriculture and environmental votes👨🏻‍⚖️. At the extremes Identity & Democracy and non attached members exhibit consistent low agreement across all domains, showing the role of ideological compactness and formal group structures in sustaining legislative unity📉.
 
