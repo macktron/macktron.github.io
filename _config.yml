@@ -26,10 +26,6 @@ baseurl: ""
 url: "https://macktron.github.io"
 github_username: macktron
 
-github_url: https://github.com/ByggeMandBob/your-repo
-zip_url:     /downloads/archive.zip
-tar_url:     /downloads/archive.tar.gz
-
 theme: minima
 plugins:
   - jekyll-feed

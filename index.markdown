@@ -3,9 +3,9 @@ layout: custom_home
 
 title: "Polarization in the European Parliament"
 
-github_url: https://github.com/ByggeMandBob/your-repo
-zip_url:     /downloads/archive.zip
-tar_url:     /downloads/archive.tar.gz
+github_url: https://github.com/mathiaskrois/-socialdata2025-MMC-/blob/main/Project/notebook.ipynb
+zip_url: https://github.com/mathiaskrois/-socialdata2025-MMC-/tree/main/Project
+tar_url: https://github.com/macktron/macktron.github.io
 ---
 
 ---

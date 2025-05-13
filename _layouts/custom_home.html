@@ -28,7 +28,7 @@
 
       .hero h1 {
         font-size: 3em;
-        background: rgba(255, 255, 255, 0.88);
+        background: rgb(255, 255, 255);
         padding: 0.5em 1em;
         border-radius: 20px;
       }
@@ -50,7 +50,7 @@
       }
 
       .hero-buttons .btn:hover {
-        background: #1a2733;
+        background: #e59524;
       }
 
       .content {
@@ -68,13 +68,13 @@
       {% if page.github_url or page.zip_url or page.tar_url %}
       <div class="hero-buttons">
         {% if page.github_url %}
-          <a href="{{ page.github_url }}" class="btn" target="_blank">View on GitHub</a>
+          <a href="{{ page.github_url }}" class="btn" target="_blank">Explainer Notebook</a>
         {% endif %}
         {% if page.zip_url %}
-          <a href="{{ page.zip_url }}" class="btn">Download .zip</a>
+          <a href="{{ page.zip_url }}" class="btn">Project on GitHub</a>
         {% endif %}
         {% if page.tar_url %}
-          <a href="{{ page.tar_url }}" class="btn">Download .tar.gz</a>
+          <a href="{{ page.tar_url }}" class="btn">Website on GitHub</a>
         {% endif %}
       </div>
       {% endif %}
