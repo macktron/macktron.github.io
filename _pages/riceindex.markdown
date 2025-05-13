@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank
 title: Rice Index
 permalink: /riceindex/
 ---
