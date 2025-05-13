@@ -54,10 +54,9 @@ To help understand the nature of political alignment and divvision within the Eu
 
 <ul>
   <li>
-    <span style="font-weight: bold;">International Trade</span> – 
-    This area involves the EU’s commercial relationships with non-EU countries, including trade agreements, tariff policy, and regulatory cooperation.      <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
-      Votes often concern major trade deals (e.g., with Canada, Japan, or Mercosur), export controls, and trade sustainability clauses. This policy area illustrates ideological splits between support for liberalized global markets and calls for stronger protections for labor rights, environmental standards, and strategic industries.
+    <span style="font-weight: bold;">International Trade</span>
+    <details style="display: inline;">
+      This area involves the EU’s commercial relationships with non-EU countries, including trade agreements, tariff policy, and regulatory cooperation. Votes often concern major trade deals (e.g., with Canada, Japan, or Mercosur), export controls, and trade sustainability clauses. This policy area illustrates ideological splits between support for liberalized global markets and calls for stronger protections for labor rights, environmental standards, and strategic industries.
     </details>
   </li>
 </ul>
@@ -65,10 +64,9 @@ To help understand the nature of political alignment and divvision within the Eu
 
 <ul>
   <li>
-    <span style="font-weight: bold;">Fisheries</span> – 
-    This area is governed by the Common Fisheries Policy (CFP), this domain includes legislation on the sustainable management of marine resources, fishing quotas, fleet regulation, and cooperation with non-EU countries on fishing rights.
+    <span style="font-weight: bold;">Fisheries</span>
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      This area is governed by the Common Fisheries Policy (CFP), this domain includes legislation on the sustainable management of marine resources, fishing quotas, fleet regulation, and cooperation with non-EU countries on fishing rights.
       Fisheries policy is vital for coastal economies and often involves negotiations between ecological goals (e.g., preventing overfishing) and economic pressures from national fishing industries. This area can reveal regional divides, especially among member states with significant maritime sectors.
     </details>
   </li>
@@ -76,10 +74,9 @@ To help understand the nature of political alignment and divvision within the Eu
 
 <ul>
   <li>
-    <span style="font-weight: bold;">Employment & Social Affairs</span> – 
-    This topic covers EU legislation on labor markets, workers' rights, social protections, and inclusive employment policies.
+    <span style="font-weight: bold;">Employment & Social Affairs</span> 
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      This topic covers EU legislation on labor markets, workers' rights, social protections, and inclusive employment policies.
       Votes address issues such as working conditions, minimum wages, occupational health and safety, social security coordination, and labor mobility. This area is ideologically charged, with progressive and centrist parties typically supporting stronger labor protections, while others advocate for labor market flexibility and reduced regulation.
     </details>
   </li>
@@ -87,10 +84,9 @@ To help understand the nature of political alignment and divvision within the Eu
 
 <ul>
   <li>
-    <span style="font-weight: bold;">Environment & Public Health</span> – 
-    A high-priority and expansive domain, this area includes votes on environmental regulation (e.g., climate change, biodiversity, pollution control) and health-related policies (e.g., pandemic preparedness, food safety, cross-border healthcare).
+    <span style="font-weight: bold;">Environment & Public Health</span>
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      A high-priority and expansive domain, this area includes votes on environmental regulation (e.g., climate change, biodiversity, pollution control) and health-related policies (e.g., pandemic preparedness, food safety, cross-border healthcare).
       MEPs debate legislative proposals aiming to balance ecological sustainability and public well-being with economic interests. Disagreement often arises over regulatory stringency, climate targets, and the role of innovation in solving environmental challenges.
     </details>
   </li>
@@ -98,10 +94,9 @@ To help understand the nature of political alignment and divvision within the Eu
 
 <ul>
   <li>
-    <span style="font-weight: bold;">Development</span> – 
-    Development policy focuses on the EU’s engagement with lower-income countries through humanitarian aid, technical assistance, and economic partnerships.
+    <span style="font-weight: bold;">Development</span> 
     <details style="display: inline;">
-      <summary style="display: inline; cursor: pointer; color: blue; font-weight: bold;">[Read more...]</summary>
+      Development policy focuses on the EU’s engagement with lower-income countries through humanitarian aid, technical assistance, and economic partnerships.
       MEPs vote on funding for global development projects, EU contributions to international organizations, and programs promoting democracy, gender equality, education, and poverty reduction. The topic reflects the EU’s identity as a normative global actor and often connects to broader foreign policy and trade agendas.
     </details>
   </li>
