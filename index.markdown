@@ -4,31 +4,53 @@ layout: custom_home
 title: "Analyzing Polarization in the European Parliament"
 ---
 
-# Introduction
 
-![Polarization in USA](images/polarization_USA.png)
+In the last 20 years, **political polarization** has increased across Europe, reshaping democratic debate and trust in institutions. One key driver of this trend is the evolving **media landscape**. As traditional news sources lose dominance, fragmented platforms and social media algorithms increasingly amplify ideological divides.
 
-In the last years, polarization has
+A [2023 report by the European Commission](https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en) highlights how polarization—particularly since the **mid-2010s**—has become a growing concern for democratic stability and local governance across EU member states.
 
-Media: https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en
+To explore whether this broader societal polarization is mirrored in formal decision-making, we turn to the **European Parliament**, the EU’s central legislative body.
 
-In recent years, questions about political alignment, ideological fragmentation, and party cohesion have become increasingly relevant within the European Union. As one of the most important legalislative bodies in the European Union, the European Parliament offers a valuable lens through which to study these evolving political dynamics.
+---
 
-This project uses data obtained from VoteWatch Europe, an independent organization that tracks and curates etailed information on the voting behavior of MEPs. Covering all recorded roll-call votes between 2004 and 2022, the dataset includes individual voting records as well as contextual metadata about the legislative proposals themselves.
+### A Data-Driven Look at Political Divides
 
-The roll-all votes detail how each member of the European Parliament (MEP) voted on individual areas of leglislation, e.g. whether they voted for, against abstained. These records are enriched with metadata such as the MEP’s country, national party, and European Parliamentary Group (EPG).
+We use data from **[VoteWatch Europe](https://www.votewatch.eu/)**, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers **roll-call votes from 2005 to 2021**. These votes capture whether MEPs supported, opposed, or abstained on specific legislative items, and are accompanied by metadata such as their **European Parliamentary Group (EPG)** and national party affiliation.
 
-The aim of the analysis of long-term trends in parliamentary voting behaviour will help identify shifts in consensus and division across parties, time periods, and policy areas. This project seeks to reveal how political structures within the European Union are evolving by systematically studying the outcomes and alignments within the European Parliament.
+By analyzing these records over time and across different policy areas, we aim to measure:
 
-The goal is to present these findings through intuitive, interactive visualizations that allow you the reader to explore voting patterns in depth. The aim is to make it easier to detect trends in polarization, assess party cohesion, and understand which policy domains generate the most division or consensus. Ultimately, the project is intended to support a clearer, data-driven understanding of European parliamentary politics.
+* How cohesion within eurpean parliment group evolves,
+* How closely political groups align with each other,
+* Within what policy areas divisions emerges,
+* And whether there is a long-term trend toward greater **fragmentation or cohesion**.
 
-![Fun image to "lätta upp stämningen"](images/original.png)
+---
+
+![Polarization in the USA](images/polarization_USA.png)
+*Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017).*
+
+---
+
+### What This Project Aims to Reveal
+
+The goal of this project is to trace long-term changes in voting behavior to identify:
+
+* Which policy areas are most divisive,
+* Which EPGs tend to agree or diverge,
+* And how polarization within the European Parliament evolves across time.
+
+Through a series of **interactive visualizations**, readers can explore voting similarity, party cohesion, and cross-group alignment in a way that makes complex patterns more intuitive.
+
+---
+
+![A lighter moment](images/original.png)
+*The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*
 
 
 # European Parliament Groups (EPGs)
 Within the European Parliament, Members of the European Parliament (MEPs) are organized into transnational political groups called European Parliament Groups (EPGs). These groups bring together national parties from different EU countries that share similar political ideologies.
 
-In our analysis, we focus on how these EPGs vote on different policy issues, as shifts in their voting patterns can reveal important insights about political alignment, cohesion, and change within the EU.
+In our analysis, we focus on how these EPGs vote on different policy issues, as shifts in their voting patterns can reveal insights about change and polarization within the EU.
 
 
 ![MEP Table](images/epg_table_bokeh.png)
@@ -39,7 +61,7 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 # Political polarization within EPGs
 
 
-Since **polarization** is a fairly abstract concept, we need a way to **quantify** it. Fortunately, because we have the voting records of all Members of the European Parliament (MEPs), we can measure the level of agreement within political groups as an indicator of polarization.
+ Polarization is a fairly abstract concept but it can be quantified using the voting records of all Members of the European Parliament (MEPs)
 
 A common metric for internal group agreement is the **Rice Index**, which produces a score between 0 and 1. This gives a simple, quantifiable measure of how unified a group is in its voting behavior. [Learn more about the Rice Index](/riceindex/).
 
@@ -55,13 +77,14 @@ A common metric for internal group agreement is the **Rice Index**, which produc
   </iframe>
 </div>
 
-This line chart shows the annual average Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity).  A hover tooltip reveals the exact Rice value for each year.
+The graph shows the annual average Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity). 
 
 ### Interpretation of General Agreement 
-The graph shows a maximum variation of about 20 %. Looking at the "spikes" and thus the periods with most disagreement.
-The Rice index exhibits two pronounced peaks over the 2005–2021 period, both coinciding with systemic crises. In 2008, the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial-stability measures during the global banking collapse. Following this a gradual decline ensued—reaching a trough near 0.47 by 2019—driven by intensifying sovereign-debt disputes, the expansion of populist and Eurosceptic factions, and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)
+Looking at the "spikes" and thus the periods with most disagreement the index exhibits two pronounced peaks over the 2005–2021 period both overlapping with systemic crises. In 2008 the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of emergency financial stability measures during the global banking collapse. Following this a gradual decline ensued a near 0.47 by 2019 driven by intensifying sovereign debt disputes and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)
 
-With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed from roughly 0.48 to 0.54 as MEPs coalesced around the €750 billion NextGenerationEU recovery fund, joint vaccine procurement and health-emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national-interest have higher value.
+With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed to 0.54 as MEPs unified around the €750 billion NextGenerationEU recovery fund, joint vaccine programs and health emergency protocols. [**EU**](https://commission.europa.eu/strategy-and-policy/recovery-plan-europe_en) 
+
+In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national interest provoke disagreements.
 
 
 ## Polarization by Policy Area
@@ -77,10 +100,10 @@ Examining voting patterns by individual policy area reveals the underlying ideol
   </iframe>
 </div>
 
-An interactive multi-select chart overlays the average line in black with colored lines for each policy domain (e.g. fisheries, budgetary control, internal market). Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend.
+The interactive chart overlays the average line in black with colored lines for each policy area. Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend.
 
 ### Underlying Drivers  
-Over time all policy-area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead, different combinations become more consensual at different moments.
+Over time all policy area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead different combinations become more consensual at different moments.
 
 * **Persistent downward drift in overall cohesion.**
   The thick “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that, outside crisis episodes, cross-party unanimity has weakened over the last decade.
