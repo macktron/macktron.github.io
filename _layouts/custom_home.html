@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
     <style>
-      /* base resets */
+      /* Reset */
       body, html {
         margin: 0;
         padding: 0;
         font-family: sans-serif;
       }
-      
-      /* ========== PROGRESS NAV ========== */
+
+      /* Progress bar container (full width background) */
       #progress-container {
         position: fixed;
         top: 0;
@@ -23,11 +23,17 @@
         box-shadow: 0 1px 4px rgba(0,0,0,0.1);
         z-index: 1000;
       }
+      /* Inner wrapper to constrain width to main content */
+      #progress-container .progress-inner {
+        max-width: 800px;     /* match .content max-width */
+        margin: 0 auto;
+        padding: 0.5em 1em;    /* same padding as .content */
+      }
       #progress-nav {
         display: flex;
         list-style: none;
         margin: 0;
-        padding: 0.5em 1em;
+        padding: 0;
         overflow-x: auto;
       }
       #progress-nav li {
@@ -39,21 +45,21 @@
         color: #666;
         font-size: 0.9em;
         padding-bottom: 0.2em;
-        transition: color 0.2s ease, border-color 0.2s ease;
         border-bottom: 2px solid transparent;
+        transition: color 0.2s ease, border-color 0.2s ease;
       }
       #progress-nav li.active a {
         color: #000;
         border-color: #2c3e50;
         font-weight: 600;
       }
-      
-      /* push content down so it’s not hidden under the fixed nav */
+
+      /* Push content down so it isn’t hidden under the fixed nav */
       main.content {
-        padding-top: 3em; /* adjust if you change nav height */
+        padding-top: 3em;
       }
-      
-      /* ========== HERO ========== */
+
+      /* Hero section */
       .hero {
         position: relative;
         height: 65vh;
@@ -89,15 +95,25 @@
       .hero-buttons .btn:hover {
         background: #e59524;
       }
+
+      /* Content area */
+      .content {
+        padding: 2em;
+        max-width: 800px;
+        margin: auto;
+      }
     </style>
   </head>
 
   <body>
-    <!-- PROGRESS BAR CONTAINER -->
+    <!-- PROGRESS BAR -->
     <div id="progress-container">
-      <ul id="progress-nav"></ul>
+      <div class="progress-inner">
+        <ul id="progress-nav"></ul>
+      </div>
     </div>
 
+    <!-- HERO -->
     <section class="hero">
       <h1>{{ page.title }}</h1>
 
@@ -116,27 +132,25 @@
       {% endif %}
     </section>
 
+    <!-- MAIN CONTENT -->
     <main class="content">
       {{ content }}
     </main>
 
-    <!-- DYNAMIC SECTION HIGHLIGHT SCRIPT -->
+    <!-- SECTION HIGHLIGHT SCRIPT -->
     <script>
       document.addEventListener('DOMContentLoaded', () => {
         const content = document.querySelector('main.content');
-        // adjust the selector if you want h3, h4, etc.
         const headings = content.querySelectorAll('h2');
         const nav = document.getElementById('progress-nav');
 
-        // build nav items
+        // Build nav items
         headings.forEach(h => {
           let id = h.id;
           if (!id) {
-            id = h.textContent
-                  .trim()
-                  .toLowerCase()
-                  .replace(/\s+/g, '-')
-                  .replace(/[^\w-]/g, '');
+            id = h.textContent.trim().toLowerCase()
+                   .replace(/\s+/g, '-')
+                   .replace(/[^\w-]/g, '');
             h.id = id;
           }
           const li = document.createElement('li');
@@ -148,7 +162,6 @@
         });
 
         const items = Array.from(nav.children);
-        // observe which heading is centered in viewport
         const observer = new IntersectionObserver(entries => {
           entries.forEach(e => {
             if (e.isIntersecting) {
