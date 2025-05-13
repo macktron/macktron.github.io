@@ -6,37 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
     <style>
+      /* base resets */
       body, html {
         margin: 0;
         padding: 0;
         font-family: sans-serif;
       }
-
+      
+      /* ========== PROGRESS NAV ========== */
+      #progress-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255,255,255,0.9);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        z-index: 1000;
+      }
+      #progress-nav {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0.5em 1em;
+        overflow-x: auto;
+      }
+      #progress-nav li {
+        flex: none;
+        margin: 0 0.5em;
+      }
+      #progress-nav li a {
+        text-decoration: none;
+        color: #666;
+        font-size: 0.9em;
+        padding-bottom: 0.2em;
+        transition: color 0.2s ease, border-color 0.2s ease;
+        border-bottom: 2px solid transparent;
+      }
+      #progress-nav li.active a {
+        color: #000;
+        border-color: #2c3e50;
+        font-weight: 600;
+      }
+      
+      /* push content down so it’s not hidden under the fixed nav */
+      main.content {
+        padding-top: 3em; /* adjust if you change nav height */
+      }
+      
+      /* ========== HERO ========== */
       .hero {
         position: relative;
-        height: 65vh;                           /* ↑ give extra room for buttons */
-        background: url('images/cover_beeswarm_spread.png') 
-                    no-repeat center center;
+        height: 65vh;
+        background: url('images/cover_beeswarm_spread.png') no-repeat center center;
         background-size: cover;
         display: flex;
-        flex-direction: column;                 /* ↑ stack title + buttons */
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         color: #000;
       }
-
       .hero h1 {
         font-size: 3em;
         background: rgb(255, 255, 255);
         padding: 0.5em 1em;
         border-radius: 20px;
       }
-
       .hero-buttons {
         margin-top: 1em;
       }
-
       .hero-buttons .btn {
         display: inline-block;
         background: #2c3e50;
@@ -48,20 +86,18 @@
         margin: 0 0.4em;
         transition: background 0.2s ease;
       }
-
       .hero-buttons .btn:hover {
         background: #e59524;
-      }
-
-      .content {
-        padding: 2em;
-        max-width: 800px;
-        margin: auto;
       }
     </style>
   </head>
 
   <body>
+    <!-- PROGRESS BAR CONTAINER -->
+    <div id="progress-container">
+      <ul id="progress-nav"></ul>
+    </div>
+
     <section class="hero">
       <h1>{{ page.title }}</h1>
 
@@ -83,5 +119,48 @@
     <main class="content">
       {{ content }}
     </main>
+
+    <!-- DYNAMIC SECTION HIGHLIGHT SCRIPT -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const content = document.querySelector('main.content');
+        // adjust the selector if you want h3, h4, etc.
+        const headings = content.querySelectorAll('h2');
+        const nav = document.getElementById('progress-nav');
+
+        // build nav items
+        headings.forEach(h => {
+          let id = h.id;
+          if (!id) {
+            id = h.textContent
+                  .trim()
+                  .toLowerCase()
+                  .replace(/\s+/g, '-')
+                  .replace(/[^\w-]/g, '');
+            h.id = id;
+          }
+          const li = document.createElement('li');
+          const a  = document.createElement('a');
+          a.href = '#' + id;
+          a.textContent = h.textContent;
+          li.appendChild(a);
+          nav.appendChild(li);
+        });
+
+        const items = Array.from(nav.children);
+        // observe which heading is centered in viewport
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              items.forEach(li => li.classList.remove('active'));
+              const idx = Array.from(headings).indexOf(e.target);
+              if (items[idx]) items[idx].classList.add('active');
+            }
+          });
+        }, { rootMargin: '-40% 0px -40% 0px' });
+
+        headings.forEach(h => observer.observe(h));
+      });
+    </script>
   </body>
 </html>
