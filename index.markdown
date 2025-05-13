@@ -18,10 +18,10 @@ Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**, which 
 * How closely political groups align with each other,
 * Within what policy areas divisions emerges,
 * And whether there is a long-term trend toward greater fragmentation or cohesion.
+
 ---
 
-![Polarization in the USA](images/polarization_USA.png)
-*Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017).*
+
 
 ---
 
@@ -34,8 +34,13 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 
 ![MEP Table](images/epg_table_bokeh.png)
 
-[See which policies European Parliament groups support most.](/epgyesvotes/).
+[See which policies European Parliament groups support most](/epgyesvotes/).
 
+
+![Polarization in the USA](images/polarization_USA.png)
+*Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017).*
+
+---
 
 # Political polarization within EPGs
 
@@ -66,7 +71,7 @@ With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed 
 In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national interest provoke disagreements.
 
 
-## Polarization by Policy Area
+## Polarization by Policy Area 🌐📈⚔️🌱
 
 Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area here](/policy_areas_explained/)
 
@@ -85,19 +90,19 @@ The interactive chart overlays the average line in black with colored lines for 
 ### Underlying Drivers  
 Over time all policy area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead different combinations become more consensual at different moments.
 
-* **Persistent downward drift in overall cohesion.**
+* **Persistent downward drift in overall cohesion.** 📉
   The “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that outside crisis episodes, cross-party agreement has weakened over the last decade.
 
-* **Legal Affairs leads volatility.**
+* **Legal Affairs leads volatility.** 👨🏻‍⚖️
   Of all ten areas the legal-affairs curve shows the greatest amplitude. It spikes to the top of the chart during emergency votes then falls sharply back toward the bottom in following years. This pattern with large spontaneous swings marks it as the most momentarily consensual but least stable area.
 
-* **Consistent underperformance of social and environmental files.**
+* **Consistent underperformance of social and environmental files.** 💔🌱
   The employment & social-affairs and environment & public-health lines spend significantly more time below the average than above. Their muted peaks and deeper troughs reflect ideological splits on labor and environmental regulation even when other areas diverge.
 
-* **Mid-cycle leadership of culture & education and regional development.**
+* **Mid-cycle leadership of culture & education and regional development.** 📚
   Outside of major crises the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader more stable majorities in routine legislative periods.
 
-* **COVID-period surge in specific areas.**
+* **COVID-period surge in specific areas.** 🦠
   At the start of the pandemic the Rice index for culture & education, international trade and regional development all exhibit pronounced upward jumps and each rising well above the overall average. This reflects rapid cross-party alignment on recovery funding as mentioned before.
 
 Apart from the two acute spikes triggered by systemic crises, roll-call cohesion in the European Parliament seem exhibited a gradual, long-term erosion as soon as soon as the crisis periods are over. Procedural areas, notably legal affairs, demonstrate pronounced volatility, while social and environmental areas remain staticly polarized.
@@ -228,73 +233,7 @@ The PCA clustering process is applied using the same custom agreement index as i
 
 Crises and high-stakes policy moments, like the Eurozone crisis (2012) or the COVID-19 pandemic (2020), act as catalysts for polarization in voting patterns of the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: pro-EU integration vs. nationalist opposition.
 
-Here is a clean and compact version of the data presented as two separate Markdown tables — one for **most related** EPG pairs and one for **least related**.
-
----
-
-
-
-The most and least similar EPG pairs are identified for each year or policy area, excluding cases related to *Internal Regulations of the European Parliament*.
-
-
----
-
-### 🟢 Most Related EPG Pairs
-
-| EPG Pair        | Score | Year | Policy Area          |
-| --------------- | :---: | :--: | -------------------- |
-| Greens/EFA–REG  | 1.000 | 2013 | Petitions            |
-| EPP–REG         | 0.999 | 2022 | International Trade  |
-| Greens/EFA–REG  | 0.999 | 2022 | International Trade  |
-| EPP–Greens/EFA  | 0.998 | 2022 | International Trade  |
-| REG–S\&D        | 0.998 | 2013 | Petitions            |
-| Greens/EFA–S\&D | 0.998 | 2013 | Petitions            |
-| Greens/EFA–S\&D | 0.998 | 2021 | Regional Development |
-| Greens/EFA–S\&D | 0.997 | 2010 | Culture & Education  |
-| Greens/EFA–S\&D | 0.997 | 2022 | Regional Development |
-| Greens/EFA–S\&D | 0.996 | 2011 | Gender Equality      |
-
----
-
-### 🔴 Least Related EPG Pairs
-
-| EPG Pair       | Score | Year | Policy Area                            |
-| -------------- | :---: | :--: | -------------------------------------- |
-| IDG–REG        | 0.000 | 2018 | Environment, Public Health             |
-| EPP–REG        | 0.000 | 2017 | Employment, Social Affairs             |
-| S\&D–The Left  | 0.000 | 2006 | International Trade                    |
-| IDG–S\&D       | 0.001 | 2020 | Budget                                 |
-| Greens/EFA–REG | 0.001 | 2007 | Constitutional & Institutional Affairs |
-| EPP–S\&D       | 0.001 | 2006 | Constitutional & Institutional Affairs |
-| EPP–S\&D       | 0.001 | 2005 | Environment, Public Health             |
-| EPP–Greens/EFA | 0.001 | 2014 | Budget                                 |
-| EPP–REG        | 0.001 | 2006 | Constitutional & Institutional Affairs |
-| EPP–S\&D       | 0.001 | 2007 | Civil Liberties, Justice, Home Affairs |
-
----
-# Key Patterns in European Parliament Group Relationships
-
-**Perfect alignment between Greens/EFA–REG on Petitions (2013)**  
-Complete cooperation (1.000) suggests petition matters transcend ideological boundaries. The [European Parliament's petition process](https://www.europarl.europa.eu/at-your-service/en/be-heard/petitions) allows citizens to raise concerns that affect them directly, creating a fundamental democratic connection point where diverse political groups find common ground.
-
-**High cross-ideological cooperation on International Trade (2022)**  
-Three top-scoring relationships (0.998-0.999) involve International Trade, indicating broad consensus on post-Brexit arrangements and global trade policies. This cooperation emerged despite traditional ideological differences, as both [EPP](https://www.eppgroup.eu/what-we-do/foreign-affairs/international-trade) and [Greens/EFA](https://www.greens-efa.eu/en/) supported trade policies with strong environmental and social protections.
-
-**Consistent Greens/EFA–S&D cooperation across policy areas**  
-Stable high cooperation (0.996-0.998) across diverse policy areas from 2010-2022, confirming research showing these groups have high internal cohesion. According to [Cherepnalkoski et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5106041/), the Greens/EFA has consistently been one of the most cohesive political groups in the European Parliament.
-
-**Zero cooperation between EPP–REG on Employment (2017)**  
-Complete opposition (0.000) on Employment and Social Affairs reflects fundamental disagreements on labor market regulation approaches. The [EPP Group](https://www.eppgroup.eu/what-we-do/economy-jobs-the-environment/employment-and-social-affairs) prioritized competitiveness and entrepreneurship while REG focused on worker protections, creating an unbridgeable policy divide.
-
-**Low EPP–S&D cooperation on Constitutional Affairs (2005-2007)**  
-Minimal cooperation (0.001) during this period correlates with tensions following the rejection of the European Constitution in French and Dutch referendums. This represented a rare breakdown in the traditional ["grand coalition"](https://en.wikipedia.org/wiki/Political_groups_of_the_European_Parliament) between these two largest groups.
-
-**Temporal improvement in cooperation**  
-Most low-cooperation scores occur in 2005-2007, while high-cooperation scores dominate in 2021-2022, suggesting increasing consensus-building capability in recent years. This trend reflects the Parliament's evolution toward more [issue-based rather than purely ideological voting patterns](https://en.m.wikipedia.org/wiki/European_Parliament).
-
-**Greens/EFA highest internal cohesion**  
-Research shows Greens/EFA maintained 96% voting cohesion in the 8th Parliament (2014-2019), the highest among all political groups according to [Warasin et al. (2019)](https://link.springer.com/chapter/10.1007/978-3-030-94012-6_1). This cohesion stems from shared environmental priorities and effective internal coordination mechanisms.
-
+Some votes show up as especially divergent or unified between specific groups. [Find out more about the most distinct simmilarities between EPGs over years and policy areas](/distinctsimilarities/)
 
 
 
