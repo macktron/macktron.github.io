@@ -4,7 +4,7 @@ title: Dataset
 permalink: /dataset/
 ---
 
-The dataset used in this project is sourced from **[VoteWatch Europe](https://www.votewatch.eu/)**, an independent organization that tracks voting behavior in the European Parliament. It captures how Members of the European Parliament (MEPs) voted::  **in favor**, **against**, or **abstained**—on legislative proposals. Alongside each vote, it includes rich metadata about the individual MEP and the vote context.
+The dataset used in this project is sourced from **[VoteWatch Europe](https://www.votewatch.eu/)**, an independent organization that tracks voting behavior in the European Parliament. It captures how Members of the European Parliament (MEPs) voted::  **in favor**, **against**, or **abstained** = on legislative proposals. Alongside each vote, it includes rich metadata about the individual MEP and the vote context.
 
 This allows for a detailed examination of voting patterns across countries, political groups, and time periods, offering insights into trends of polarization, party cohesion, and ideological shifts.
 

@@ -48,13 +48,13 @@ Complete cooperation (1.000) suggests petition matters transcend ideological bou
 **High cross-ideological cooperation on International Trade (2022)**  
 Three top-scoring relationships (0.998-0.999) involve International Trade, indicating broad consensus on post-Brexit arrangements and global trade policies. This cooperation emerged despite traditional ideological differences, as both [EPP](https://www.eppgroup.eu/what-we-do/foreign-affairs/international-trade) and [Greens/EFA](https://www.greens-efa.eu/en/) supported trade policies with strong environmental and social protections.
 
-**Consistent Greens/EFA–S&D cooperation across policy areas**  
+**Consistent Greens/EFA-S&D cooperation across policy areas**  
 Stable high cooperation (0.996-0.998) across diverse policy areas from 2010-2022, confirming research showing these groups have high internal cohesion. According to [Cherepnalkoski et al. (2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5106041/), the Greens/EFA has consistently been one of the most cohesive political groups in the European Parliament.
 
-**Zero cooperation between EPP–REG on Employment (2017)**  
+**Zero cooperation between EPP-REG on Employment (2017)**  
 Complete opposition (0.000) on Employment and Social Affairs reflects fundamental disagreements on labor market regulation approaches. The [EPP Group](https://www.eppgroup.eu/what-we-do/economy-jobs-the-environment/employment-and-social-affairs) prioritized competitiveness and entrepreneurship while REG focused on worker protections, creating an unbridgeable policy divide.
 
-**Low EPP–S&D cooperation on Constitutional Affairs (2005-2007)**  
+**Low EPP-S&D cooperation on Constitutional Affairs (2005-2007)**  
 Minimal cooperation (0.001) during this period correlates with tensions following the rejection of the European Constitution in French and Dutch referendums. This represented a rare breakdown in the traditional ["grand coalition"](https://en.wikipedia.org/wiki/Political_groups_of_the_European_Parliament) between these two largest groups.
 
 **Temporal improvement in cooperation**  

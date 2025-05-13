@@ -15,17 +15,17 @@ permalink: /policy_areas/
 
 **The Left**
 
-Agreement peaks in **gender equality** and **development**, reflecting the group’s feminist and anti-neoliberal agenda. Its 2024 manifesto calls for a “real strategy to end violence against women and girls” and massive European investment plans for a just "socio-ecological" transition. This explains a unusual strong unity on those files ([The Left][1]). By contrast, cohesion is lowest on **agriculture**, where the group has campaigned against the Common Agricultural Policy toward sustainability—positions that expose deep inner group debates over agrarian versus industrial priorities ([European Left][2]).
+Agreement peaks in **gender equality** and **development**, reflecting the group's feminist and anti-neoliberal agenda. Its 2024 manifesto calls for a "real strategy to end violence against women and girls" and massive European investment plans for a just "socio-ecological" transition. This explains a unusual strong unity on those files ([The Left][1]). By contrast, cohesion is lowest on **agriculture**, where the group has campaigned against the Common Agricultural Policy toward sustainability-positions that expose deep inner group debates over agrarian versus industrial priorities ([European Left][2]).
 
 
 **Socialists & Democrats (S&D)**
 
-High Rice indices on **gender equality**, **development**, **budgetary control** and **culture & education** reflect S&D’s self-declared commitment to an “inclusive, feminist Europe” and a “green, fair and more social Common Agricultural Policy” ([Socialists and Democrats][3], [Socialists and Democrats][4]). Lower cohesion on **international trade** and **agriculture** corresponds to historic divides over balancing social-justice goals with farmers’ livelihoods and climate ambition tradeoffs.
+High Rice indices on **gender equality**, **development**, **budgetary control** and **culture & education** reflect S&D's self-declared commitment to an "inclusive, feminist Europe2 and a "green, fair and more social Common Agricultural Policy" ([Socialists and Democrats][3], [Socialists and Democrats][4]). Lower cohesion on **international trade** and **agriculture** corresponds to historic divides over balancing social-justice goals with farmers' livelihoods and climate ambition tradeoffs.
 
 
 **Renew Europe (REG/ALDE)**
 
-Renew’s liberal-centrist platform focuses on **SME competitiveness**, **digital transition** and **open but fair trade** and yet the barplot shows low agreements levels, especially on **international trade** where members diverge over market access versus regulatory safeguards ([Renew Europe Now][5], [Renew Europe][6]). Stronger unity on **culture & education** and **development** mirrors Renew’s stated priorities boosting innovation and supporting civil rights.
+Renew's liberal-centrist platform focuses on **SME competitiveness**, **digital transition** and **open but fair trade** and yet the barplot shows low agreements levels, especially on **international trade** where members diverge over market access versus regulatory safeguards ([Renew Europe Now][5], [Renew Europe][6]). Stronger unity on **culture & education** and **development** mirrors Renew's stated priorities boosting innovation and supporting civil rights.
 
 
 **Greens/EFA**
@@ -33,9 +33,9 @@ Renew’s liberal-centrist platform focuses on **SME competitiveness**, **digita
 Greens/EFA record their highest cohesion on **employment & social affairs**, **gender equality** and **development**, in line with their continuous advocacy for a European Green Deal that integrates agriculture, health and social policy into a sustainable-growth strategy ([Greens/EFA][7], [Greens/EFA][8]). Interestingly they dont aggree on **agriculture** and **fisheries** which reflect that the methods to reach their proclaimed goal are not in internal alignment.  
 
 
-**European People’s Party (EPP)**
+**European People's Party (EPP)**
 
-EPP shows its strongest unity on **Culture & Education** and **Legal Affairs**, reflecting broad consensus justice related areas, while **Agricultural** and **Environmental** areas register notably lower cohesion, highlighting tensions between agrarian policies and emerging climate priorities.[EPP - European People's Party][9])
+EPP shows its strongest unity on **Culture & Education** and **Legal Affairs**, reflecting broad consensus justice related areas, while **Agricultural** and **Environmental** areas register notably lower cohesion, highlighting tensions between agrarian policies and emerging climate priorities.([EPP - European People's Party][9])
 
 
 **Identity & Democracy (IDG) and Non-attached Members (NI)**
