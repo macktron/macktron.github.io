@@ -22,10 +22,6 @@ Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**🌐, wh
 ---
 
 
-
----
-
-
 # European Parliament Groups (EPGs)
 Within the European Parliament, Members of the European Parliament (MEPs) are organized into transnational political groups called European Parliament Groups (EPGs). These groups bring together national parties from different EU countries that share similar political ideologies.
 
@@ -73,7 +69,7 @@ In both instances the data indicate that extreme external shocks substantially i
 
 ## Polarization by Policy Area 🌐📈⚔️🌱
 
-Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area here](/policy_areas_explained/)📂
+Examining voting patterns by individual policy area reveals the underlying ideological fault lines in Parliament and highlights the agrendas that produce the sharpest divisions. [Read a detailed explanation of each area](/policy_areas_explained/)📂
 
 
 <div style="display: flex; justify-content: center;">
