@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
     <style>
       body, html {
         margin: 0;
@@ -14,22 +14,43 @@
 
       .hero {
         position: relative;
-        height: 60vh;
-        background: url('images/cover_beeswarm_spread.png') no-repeat center center;
+        height: 65vh;                           /* ↑ give extra room for buttons */
+        background: url('images/cover_beeswarm_spread.png') 
+                    no-repeat center center;
         background-size: cover;
         display: flex;
+        flex-direction: column;                 /* ↑ stack title + buttons */
         align-items: center;
         justify-content: center;
         text-align: center;
-        color: rgb(0, 0, 0);
-        font-style: bold;
+        color: #000;
       }
 
       .hero h1 {
         font-size: 3em;
-        background: rgba(255, 255, 255, 0.877);
+        background: rgba(255, 255, 255, 0.88);
         padding: 0.5em 1em;
         border-radius: 20px;
+      }
+
+      .hero-buttons {
+        margin-top: 1em;
+      }
+
+      .hero-buttons .btn {
+        display: inline-block;
+        background: #2c3e50;
+        color:    #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.6em 1.2em;
+        border-radius: 0.3em;
+        margin: 0 0.4em;
+        transition: background 0.2s ease;
+      }
+
+      .hero-buttons .btn:hover {
+        background: #1a2733;
       }
 
       .content {
@@ -39,9 +60,24 @@
       }
     </style>
   </head>
+
   <body>
     <section class="hero">
       <h1>{{ page.title }}</h1>
+
+      {% if page.github_url or page.zip_url or page.tar_url %}
+      <div class="hero-buttons">
+        {% if page.github_url %}
+          <a href="{{ https://github.com/mathiaskrois/-socialdata2025-MMC-}}" class="btn" target="_blank">View on GitHub</a>
+        {% endif %}
+        {% if page.zip_url %}
+          <a href="{{ https://github.com/mathiaskrois/-socialdata2025-MMC-}}" class="btn">Download .zip</a>
+        {% endif %}
+        {% if page.tar_url %}
+          <a href="{{ https://github.com/mathiaskrois/-socialdata2025-MMC- }}" class="btn">Download .tar.gz</a>
+        {% endif %}
+      </div>
+      {% endif %}
     </section>
 
     <main class="content">
