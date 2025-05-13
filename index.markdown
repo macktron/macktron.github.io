@@ -4,42 +4,28 @@ layout: custom_home
 title: "Analyzing Polarization in the European Parliament"
 ---
 
+---
+In the last 20 years, political polarization has increased across Europe, reshaping democratic debate and trust in institutions. One key driver of this trend is the evolving media landscape. As traditional news sources lose dominance, fragmented platforms and social media algorithms increasingly amplify ideological divides.
 
-In the last 20 years, **political polarization** has increased across Europe, reshaping democratic debate and trust in institutions. One key driver of this trend is the evolving **media landscape**. As traditional news sources lose dominance, fragmented platforms and social media algorithms increasingly amplify ideological divides.
+A [2023 report by the European Commission](https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en) highlights how polarization, particularly since the mid-2010s, has become a growing concern for democratic stability and local governance across EU member states.
 
-A [2023 report by the European Commission](https://home-affairs.ec.europa.eu/whats-new/publications/media-and-polarisation-europe-strategies-local-practitioners-address-problematic-reporting-may-2023_en) highlights how polarization—particularly since the **mid-2010s**—has become a growing concern for democratic stability and local governance across EU member states.
-
-To explore whether this broader societal polarization is mirrored in formal decision-making, we turn to the **European Parliament**, the EU’s central legislative body.
+To explore whether this broader societal polarization is mirrored in formal decision-making, we turn to the European Parliament, the EU’s central legislative body.
 
 ---
 
-### A Data-Driven Look at Political Divides
-
-We use data from **[VoteWatch Europe](https://www.votewatch.eu/)**, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers **roll-call votes from 2005 to 2021**. These votes capture whether MEPs supported, opposed, or abstained on specific legislative items, and are accompanied by metadata such as their **European Parliamentary Group (EPG)** and national party affiliation.
-
+Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. These votes capture whether MEPs supported, opposed, or abstained on specific legislative items, as well as metadata such as their European Parliamentary Group (EPG) and national party affiliation.
+, as well as
 By analyzing these records over time and across different policy areas, we aim to measure:
 
 * How cohesion within eurpean parliment group evolves,
 * How closely political groups align with each other,
 * Within what policy areas divisions emerges,
-* And whether there is a long-term trend toward greater **fragmentation or cohesion**.
+* And whether there is a long-term trend toward greater fragmentation or cohesion.
 
 ---
 
 ![Polarization in the USA](images/polarization_USA.png)
 *Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017).*
-
----
-
-### What This Project Aims to Reveal
-
-The goal of this project is to trace long-term changes in voting behavior to identify:
-
-* Which policy areas are most divisive,
-* Which EPGs tend to agree or diverge,
-* And how polarization within the European Parliament evolves across time.
-
-Through a series of **interactive visualizations**, readers can explore voting similarity, party cohesion, and cross-group alignment in a way that makes complex patterns more intuitive.
 
 ---
 
