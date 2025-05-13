@@ -215,7 +215,7 @@ This interactive line chart plots one line per political group, each initially v
 The Rice index of the internal European Parliament’s political groups reveal three clear dynamics:
 
 **1. Enduring Mainstream Cohesion**
-Center-right (EPP), social-democrat (S\&D), liberal (REG/ALDE) and green (Greens/EFA) factions consistently occupy the upper portion of the scale, with Rice values clustering between roughly 0.80 and 0.95. Greens/EFA exhibit the highest and most stable agreement while EPP, S\&D and REG display moderate sensitivity to external stressors but quickly realign as crisis periods conclude.
+Center-right (EPP), social-democrat (S&D), liberal (REG/ALDE) and green (Greens/EFA) factions consistently occupy the upper portion of the scale, with Rice values clustering between roughly 0.80 and 0.95. Greens/EFA exhibit the highest and most stable agreement while EPP, S&D and REG display moderate sensitivity to external stressors but quickly realign as crisis periods conclude.
 
 **2. Structural Fragmentation among Outliers**
 Identity & Democracy (IDG) and non-attached members (NI) persistently record the lowest agreement levels. IDG’s index fluctuates between 0.30 and 0.50 (with a transient rise during the pandemic), indicative of split, loosely bound populist alliances. NI, lacking any formal grouping or shared platform remains the most diverse, with Rice values reaching near 0.25 after a decline up to 2014.
@@ -237,9 +237,9 @@ The data demonstrate that ideological compactness and formal group structures ar
 
 A dropdown-controlled bar chart shows, for the selected party, its average Rice index across every policy domain. Taller bars (closer to 1) indicate strong within-party agreement on that issue; shorter bars flag areas where dissent is common.
 
-Across the European Parliament’s political groups, voting cohesion clusters around each faction’s defining priorities. Greens/EFA record near unity on environment & public health, employment & social affairs and gender equality which reflects their integrated Green Deal agenda, while S\&D remain most cohesive on gender equality, development, budgetary control and culture & education in line with their social democratic platform. Renew Europe shows moderate agreement on innovation and rights focused areas particularly culture & education and development, but it fractures on international trade. The Left peaks on gender equality and development but divides sharply on agriculture and trade. EPP maintains strong discipline in justice-related dossiers (culture & education, legal affairs) but reveals tension in agriculture and environmental votes. At the extremes Identity & Democracy and non attached members exhibit consistent low agreement across all domains, showing the role of ideological compactness and formal group structures in sustaining legislative unity.
+Across the European Parliament’s political groups, voting cohesion clusters around each faction’s defining priorities. Greens/EFA record near unity on environment & public health, employment & social affairs and gender equality which reflects their integrated Green Deal agenda, while S&D remain most cohesive on gender equality, development, budgetary control and culture & education in line with their social democratic platform. Renew Europe shows moderate agreement on innovation and rights focused areas particularly culture & education and development, but it fractures on international trade. The Left peaks on gender equality and development but divides sharply on agriculture and trade. EPP maintains strong discipline in justice-related dossiers (culture & education, legal affairs) but reveals tension in agriculture and environmental votes. At the extremes Identity & Democracy and non attached members exhibit consistent low agreement across all domains, showing the role of ideological compactness and formal group structures in sustaining legislative unity.
 
-Together, these patterns confirm that **ideological compactness** and **institutional cohesion** are the principal drivers of stable voting unity. Formal groups with clear, shared agendas (Greens/EFA, S\&D, EPP) achieve higher, more consistent Rice indices in areas central to their identity, while loose coalitions or individuals outside recognized groups struggle to agree on any policy area.
+Together, these patterns confirm that **ideological compactness** and **institutional cohesion** are the principal drivers of stable voting unity. Formal groups with clear, shared agendas (Greens/EFA, S&D, EPP) achieve higher, more consistent Rice indices in areas central to their identity, while loose coalitions or individuals outside recognized groups struggle to agree on any policy area.
 
 
 [Read the full analysis here](/policy_areas/)
@@ -274,15 +274,16 @@ With this method, we can see how similarly each group in the European Parliament
 </div>
 
 
-Even though the EPGs shift position from year to year, this is expected in a PCA plot, we can still observe some clear and stable trends.
+Even though the EPGs shift position from year to year, this is expected in a PCA plot, we can still observe some clear and stable trends between parties.
 
- The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways. The same goes for **S\&D** and **Renew Europe** — they are usually positioned near each other, suggesting they often agree on votes.
+* The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways.
+* The same goes for **S&D** and **Renew Europe** — they are usually positioned near each other, suggesting they often agree on votes.
 
-On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
+* On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
 
-**Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
+* **Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
 
-From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded — for example, on lockdowns, vaccine strategies, or EU-wide recovery plans — [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
+* From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded — for example, on lockdowns, vaccine strategies, or EU-wide recovery plans — [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
 
 
 The following table summarizes the most and least similar EPG pairings annually, based on voting similarity metrics:
@@ -319,9 +320,9 @@ We perform the PCA clustering process using the same custom index as before, but
 
 * In **budgetary control**, a clear **realignment** appears in **2012**, during the peak of the **Eurozone debt crisis**. The **EPP (centre-right)** and **Greens/EFA (green-left)**, who previously showed some alignment, start to **diverge sharply**. This coincides with increasing disagreements over fiscal discipline, austerity, and EU-level spending. The crisis pushed parties into more ideologically defined stances. [Read more on the Euro crisis (ECFR)](https://ecfr.eu/article/commentary_the_euro_crisis_is_not_over_yet/)
 
-* By **2013**, **Renew Europe (REG)** starts to shift positions in this area, moving away from its previous closeness with **S\&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
+* By **2013**, **Renew Europe (REG)** starts to shift positions in this area, moving away from its previous closeness with **S&D** and closer to **EPP** on certain budget votes. This could reflect its liberal economic stance becoming more pronounced during recovery debates.
 
-* In the area of **environment and public health**, we see strong, consistent **clustering** between **Greens/EFA**, **The Left**, and **S\&D**, especially in years like **2018** (see image above). Their alignment reflects shared support for EU-led climate policy, regulation, and health measures.
+* In the area of **environment and public health**, we see strong, consistent **clustering** between **Greens/EFA**, **The Left**, and **S&D**, especially in years like **2018** (see image above). Their alignment reflects shared support for EU-led climate policy, regulation, and health measures.
 
 * In contrast, **IDG (Identity and Democracy Group)** consistently sits **far apart** from other groups on these issues — often opposing EU climate regulations or public health mandates. This matches findings from a 2021 **European Council on Foreign Relations** study, which notes that IDG parties are **among the least likely to support EU-wide cooperation** in areas like climate, migration, or health. [Read the ECFR report](https://ecfr.eu/publication/europes-invisible-divides/)
 
