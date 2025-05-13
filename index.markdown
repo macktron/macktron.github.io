@@ -36,13 +36,13 @@ In our analysis, we focus on how these EPGs vote on different policy issues, as 
 
 [See which policies European Parliament groups support most](/epgyesvotes/)📂.
 
+---
 
 ![Polarization in the USA](images/polarization_USA.png)
 *Rising ideological distance between parties is a global trend. Source: [Pew Research Center](https://www.pewresearch.org/politics/interactives/political-polarization-1994-2017)🌐.*
 
----
 
-## Parliament-wide Agreement 🌈
+## Parliament-wide Polarization 🌈
 
 
  Polarization is a fairly abstract concept but it can be quantified using the voting records of all Members of the European Parliament (MEPs)
@@ -57,7 +57,7 @@ A common metric for internal group agreement is the **Rice Index**, which produc
   </iframe>
 </div>
 
-The graph shows the average annual Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity). 
+*The graph shows the average annual Rice index for **all** roll-call votes. The x-axis runs from the earliest full year in our dataset to the most recent, and the y-axis show the Rice index illustrating the division between 0 (maximum division) and 1 (complete unity).* 
 
 ### Interpretation of General Agreement 
 Looking at the "spikes" and thus the periods with most disagreement the index exhibits two pronounced peaks over the 2005-2021 period both overlapping with systemic crises. In 2008 the index quickly rose from approximately 0.5 to 0.63, reflecting broad cross-group endorsement of urgent financial stability measures during the global banking collapse. Following this a gradual decline ensued a near 0.47 by 2019 driven by intensifying sovereign debt disputes and the polarization induced by the Brexit debate. [**BrexitPlorizing**](https://www.gisreportsonline.com/r/brexit-society-europe/)🌐
@@ -106,7 +106,7 @@ Apart from the two acute spikes triggered by systemic crises, roll-call cohesion
 In inter-crisis periods no single area consistently leads or lags. Each policy line oscillates around the declining average, reflecting how issue driven debates divides in the absence of a unifying emergency.
 
 
-## Internal Gruop Cohesion 🤼‍♂️
+## Internal Group Cohesion 🤼‍♂️
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/02_within_party_agreement.html"
@@ -115,7 +115,7 @@ In inter-crisis periods no single area consistently leads or lags. Each policy l
   </iframe>
 </div>
  
-The interactive line chart plots one line per political group, each initially visible but toggleable via checkboxes. It reveals which parties remain  unified across years and which show the greatest internal splits.
+*The interactive line chart plots one line per political group, each initially visible but toggleable via checkboxes. It reveals which parties remain  unified across years and which show the greatest internal splits.*
 
 The Rice index of the internal European Parliament's political groups reveal three clear dynamics:
 
@@ -131,7 +131,7 @@ Systemic shocks, most notably again the global financial crisis and the COVID-19
 **Implications**
 The data demonstrate that ideological compactness and formal group structures are the primary determinants of sustained voting agreement. Conversely, diverse coalitions fail to generate stable majorities except under extreme external pressure. In the absence of such shocks the less radical groups stay unified and are thus less prone to internal disagreement, both during crisis and stable periods. 
 
-## Group Disagreement by Policy Area 🌐💶⚔️🌱
+## Group Disagreement by Policy Area 💶⚔️🌱
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/04_bar_rice_by_policy_and_party.html"
@@ -149,11 +149,11 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 [Read the full analysis here](/policy_areas/)📂
 
+---
 
 ![A lighter moment](images/original.png)
 *The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*🌐
 
----
 
 # Polarization Between Parliamentary Groups 👥↔️👥
 
@@ -205,7 +205,7 @@ The following table summarizes the most and least similar EPG pairings annually�
 
 
 
-## Votes Over Time Across Policy Areas 🫱🏻‍🫲🏾🕰️📊
+## Voting Alignment Across Policy Areas 🫱🏻‍🫲🏾📊
 
 The PCA clustering process is applied using the same custom agreement index as in the general analysis, but performed separately for each policy area. This allows for the examination of voting alignment and polarization within specific domains of legislation.
 
@@ -241,4 +241,4 @@ At the group level, formal structures and shared platforms enforce sustained uni
 
 Intergroup similarity further shows Europe's fault lines. Greens/EFA and The Left often vote in similar, as do S&D and Renew Europe, while IDG and non-attached members remain outliers relative to other groups. Clustering by policy area shows where sharp divisions between parties are most evident. Budgetary control cleaves liberal and conservative camps during fiscal crises, climate and health unite the pro-integration blocs, and, agricultural and trade areas fracture the moderate middle.
 
-Together, these dynamics tell the story of an institution both resilient and strained. The European Parliament can find unity when necessity demands it, but in the more routine rhythm of legislation, the strong forces of ideology, national interest and institutional design forces disagreements. One might find it reassuring to see a higher level of collaboration during crisis, but how long do we have to wait for the next pandemic to unite us...?🦠🟰🫱🏻‍🫲🏾
+Together, these dynamics tell the story of an institution both resilient and strained. The European Parliament can find unity when necessity demands it, but in the more routine rhythm of legislation, the strong forces of ideology, national interest and institutional design forces disagreements. One might find it reassuring to see a higher level of collaboration during crisis, but how long do we have to wait for the next pandemic to unite us.?🦠🟰🫱🏻‍🫲🏾
