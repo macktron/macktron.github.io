@@ -53,7 +53,7 @@ A common metric for internal group agreement is the **Rice Index**, which produc
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/01_parliament_agreement.html"
-    style="width: 90vw; max-width: 1000px; height: 500px; border: none;"
+    style="width: 90vw; max-width: 1000px; height: 550px; border: none;"
     loading="lazy">
   </iframe>
 </div>
