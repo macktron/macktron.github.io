@@ -6,7 +6,7 @@ permalink: /customindex/
 
 ![Custom Index Formula](../images/custom_index.png)
 
-The **Agreement Index** is a way to measure how similarly two political groups vote in the European Parliament — not how united each group is internally, but how close their voting outcomes are **to each other**.
+The **Agreement Index** is a way to measure how similarly two political groups vote in the European Parliament - not how united each group is internally, but how close their voting outcomes are **to each other**.
 
 ### How it works
 
