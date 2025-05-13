@@ -13,15 +13,11 @@ To explore whether this broader societal polarization is mirrored in formal deci
 
 ---
 
-Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. These votes capture whether MEPs supported, opposed, or abstained on specific legislative items, as well as metadata such as their European Parliamentary Group (EPG) and national party affiliation.
-, as well as
-By analyzing these records over time and across different policy areas, we aim to measure:
-
+Data was obtained from **[VoteWatch Europe](https://www.votewatch.eu/)**, which tracks how Members of the European Parliament (MEPs) vote on legislation. The dataset covers roll-call votes from 2005 to 2021. [Read more about dataset](/dataset/). By analyzing these records over time, we aim to measure:
 * How cohesion within eurpean parliment group evolves,
 * How closely political groups align with each other,
 * Within what policy areas divisions emerges,
 * And whether there is a long-term trend toward greater fragmentation or cohesion.
-
 ---
 
 ![Polarization in the USA](images/polarization_USA.png)
@@ -85,6 +81,7 @@ Examining voting patterns by individual policy area reveals the underlying ideol
 
 The interactive chart overlays the average line in black with colored lines for each policy area. Hovering over any point shows (Policy Area, Year, Rice). You can add or remove areas to compare their dynamics against the overall trend.
 
+
 ### Underlying Drivers  
 Over time all policy area lines weave around an “average” curve thus there’s no single area that always leads or always lags. Instead different combinations become more consensual at different moments.
 
@@ -92,22 +89,20 @@ Over time all policy area lines weave around an “average” curve thus there�
   The “Average” line steadily slides from above-mid-range toward the lower half of the scale, indicating that outside crisis episodes, cross-party agreement has weakened over the last decade.
 
 * **Legal Affairs leads volatility.**
-  Of all ten portfolios, the legal-affairs curve shows the greatest amplitude. It spikes to the top of the chart during emergency votes then falls sharply back toward the bottom in following years. This pattern with large abrupt swings marks it as the most momentarily consensual but least stable area.
+  Of all ten areas the legal-affairs curve shows the greatest amplitude. It spikes to the top of the chart during emergency votes then falls sharply back toward the bottom in following years. This pattern with large spontaneous swings marks it as the most momentarily consensual but least stable area.
 
 * **Consistent underperformance of social and environmental files.**
   The employment & social-affairs and environment & public-health lines spend significantly more time below the average than above. Their muted peaks and deeper troughs reflect ideological splits on labor and environmental regulation even when other areas diverge.
 
 * **Mid-cycle leadership of culture & education and regional development.**
-  Outside of major crises the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader, more stable majorities in routine legislative periods.
+  Outside of major crises the culture & education and regional development curves consistently lie above the average line, indicating that these files attract broader more stable majorities in routine legislative periods.
 
-* **COVID-period surge in specific portfolios.**
-  At the onset of the pandemic, the Rice index for culture & education, international trade and regional development all exhibit pronounced upward jumps—each rising well above the overall average—reflecting rapid cross-party alignment on recovery funding, joint vaccine procurement and regional aid measures.
+* **COVID-period surge in specific areas.**
+  At the start of the pandemic the Rice index for culture & education, international trade and regional development all exhibit pronounced upward jumps and each rising well above the overall average. This reflects rapid cross-party alignment on recovery funding as mentioned before.
 
-Apart from the two acute spikes triggered by systemic crises, roll-call cohesion in the European Parliament has exhibited a gradual, long-term erosion. Procedural dossiers—most notably legal affairs—demonstrate pronounced volatility, while social and environmental portfolios remain chronically polarized.
+Apart from the two acute spikes triggered by systemic crises, roll-call cohesion in the European Parliament seem exhibited a gradual, long-term erosion as soon as soon as the crisis periods are over. Procedural areas, notably legal affairs, demonstrate pronounced volatility, while social and environmental areas remain staticly polarized.
 
-**Pandemic Unity circa 2020:** At the start of COVID-19, cohesion increased most sharply in culture & education, international trade and regional development—as MEPs backed recovery funding, joint vaccine procurement and region-specific aid measures.
-
-In inter-crisis periods no single area consistently leads or lags. Each policy line oscillates around the declining average, reflecting how discrete issue-driven debates divides in the absence of a unifying emergency.
+In inter-crisis periods no single area consistently leads or lags. Each policy line oscillates around the declining average, reflecting how issue driven debates divides in the absence of a unifying emergency.
 
 
 ## Within-Party Cohesion
@@ -119,21 +114,21 @@ In inter-crisis periods no single area consistently leads or lags. Each policy l
   </iframe>
 </div>
  
-This interactive line chart plots one line per political group, each initially visible but toggleable via checkboxes. It reveals which parties remain tightly unified across years and which show the greatest internal splits.
+The interactive line chart plots one line per political group, each initially visible but toggleable via checkboxes. It reveals which parties remain  unified across years and which show the greatest internal splits.
 
 The Rice index of the internal European Parliament’s political groups reveal three clear dynamics:
 
 **1. Enduring Mainstream Cohesion**
-Center-right (EPP), social-democrat (S&D), liberal (REG/ALDE) and green (Greens/EFA) factions consistently occupy the upper portion of the scale, with Rice values clustering between roughly 0.80 and 0.95. Greens/EFA exhibit the highest and most stable agreement while EPP, S&D and REG display moderate sensitivity to external stressors but quickly realign as crisis periods conclude.
+Center-right (EPP), social-democrat (S&D), liberal (REG/ALDE) and green (Greens/EFA) factions consistently occupy the upper portion of the scale. Greens/EFA exhibit the highest and most stable agreement while EPP, S&D and REG display moderate sensitivity to external stressors.
 
 **2. Structural Fragmentation among Outliers**
-Identity & Democracy (IDG) and non-attached members (NI) persistently record the lowest agreement levels. IDG’s index fluctuates between 0.30 and 0.50 (with a transient rise during the pandemic), indicative of split, loosely bound populist alliances. NI, lacking any formal grouping or shared platform remains the most diverse, with Rice values reaching near 0.25 after a decline up to 2014.
+Identity & Democracy (IDG) and non-attached members (NI) persistently record the lowest agreement levels. IDG’s index shows the internal split and loosely bound populist alliances. NI, lacking any formal grouping or shared platform, remains the most diverse with Rice values reaching as low as 0.27 after a decline up to 2014.
 
 **3. Crisis-Induced Convergence**
-Systemic shocks, most notably again the global financial crisis and the COVID-19 pandemic, temporarily elevate cohesion across nearly all groups. Even IDG registers its highest internal alignment during 2020 emergency votes, although it still remains below mainstream levels. Mainstream groups exhibit only small or brief change in cohesion during crises showing their institutional resilience.
+Systemic shocks, most notably again the global financial crisis and the COVID-19 pandemic, temporarily elevate cohesion across nearly all groups. Even IDG registers its highest internal alignment during 2020 emergency votes, although it still remains below mainstream levels. Other groups exhibit only small or brief change in cohesion during crises showing their institutional resilience.
 
 **Implications**
-The data demonstrate that ideological compactness and formal group structures are the primary determinants of sustained voting agreement. Conversely, diverse coalitions fail to generate stable majorities except under extreme external duress. In the absence of such shocks the less radical groups stay unified and are thus less prone to internal disagreement, both during crisis and stable periods. 
+The data demonstrate that ideological compactness and formal group structures are the primary determinants of sustained voting agreement. Conversely, diverse coalitions fail to generate stable majorities except under extreme external pressure. In the absence of such shocks the less radical groups stay unified and are thus less prone to internal disagreement, both during crisis and stable periods. 
 
 ### Party Disagreement by Policy Area  
 <div style="display: flex; justify-content: center;">
@@ -144,9 +139,9 @@ The data demonstrate that ideological compactness and formal group structures ar
   </iframe>
 </div>
 
-A dropdown-controlled bar chart shows, for the selected party, its average Rice index across every policy domain. Taller bars (closer to 1) indicate strong within-party agreement on that issue; shorter bars flag areas where dissent is common.
+A dropdown-controlled bar chart 📊 shows for the selected party its average Rice index across every policy area. Taller bars (closer to 1) indicate strong internal party agreement on that issue.
 
-Across the European Parliament’s political groups, voting cohesion clusters around each faction’s defining priorities. Greens/EFA record near unity on environment & public health, employment & social affairs and gender equality which reflects their integrated Green Deal agenda, while S&D remain most cohesive on gender equality, development, budgetary control and culture & education in line with their social democratic platform. Renew Europe shows moderate agreement on innovation and rights focused areas particularly culture & education and development, but it fractures on international trade. The Left peaks on gender equality and development but divides sharply on agriculture and trade. EPP maintains strong discipline in justice-related dossiers (culture & education, legal affairs) but reveals tension in agriculture and environmental votes. At the extremes Identity & Democracy and non attached members exhibit consistent low agreement across all domains, showing the role of ideological compactness and formal group structures in sustaining legislative unity.
+Across the European Parliament’s political groups, voting cohesion clusters around each faction’s defining priorities. Greens/EFA ☘️ record near unity on environment & public health, employment & social affairs and gender equality which reflects their integrated Green Deal agenda, while S&D remain most cohesive on gender equality, development, budgetary control and culture & education in line with their social democratic platform 🎓. Renew Europe shows moderate agreement on innovation and rights focused areas particularly culture & education and development, but it fractures on international trade🏗️. The Left peaks on gender equality and development but divides sharply on agriculture and trade. EPP maintains strong discipline in justice-related areas (culture & education, legal affairs) but reveals tension in agriculture and environmental votes👨🏻‍⚖️. At the extremes Identity & Democracy and non attached members exhibit consistent low agreement across all domains, showing the role of ideological compactness and formal group structures in sustaining legislative unity📉.
 
 Together, these patterns confirm that **ideological compactness** and **institutional cohesion** are the principal drivers of stable voting unity. Formal groups with clear, shared agendas (Greens/EFA, S&D, EPP) achieve higher, more consistent Rice indices in areas central to their identity, while loose coalitions or individuals outside recognized groups struggle to agree on any policy area.
 
@@ -157,21 +152,22 @@ Together, these patterns confirm that **ideological compactness** and **institut
 ![A lighter moment](images/original.png)
 *The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*
 
+---
 
-# Political polarization between different EPGs
+# Political Polarization Between European Parliamentary Groups (EPGs)
 
-When we want to understand the **similarity in voting behavior between two different political groups (EPGs)**, the Rice Index falls short. It only looks at agreement within a single group and doesn't consider differences in group size or how often members abstain.
+Understanding the similarity in voting behavior between different EPGs requires more than conventional measures. [The Rice Index](/riceindex/), commonly used to quantify intra-group cohesion, is limited in this context since it evaluates agreement within a single group, but does not account for variations in group size or the frequency of abstentions.
+
+## Measuring Inter-Group Similarity
+
+To overcome these limitations, a [custom agreement index](/customindex/) is applied. This metric compares how two groups distribute their votes across the categories "Yes," "No," and "Abstain." It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
+[Learn more about the Custom Index](/customindex/)
+
+## Visualizing Voting Alignment
+
+This similarity measure is used to analyze how closely different EPGs align in their voting behavior. Based on the calculated similarities, clustering is constructed in which each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer together, while those with more divergent behavior are farther apart. [Learn more about the clustering](/pca/)
 
 
-## How to measure it
-
-To address this, we use a **custom agreement index** that compares how two groups distribute their votes (Yes, No, Abstain). It calculates how similar their voting patterns are—adjusting for size differences—and returns a value between 0 and 1, where 1 means identical voting behavior. [Learn more about the Custom Index](/customindex/).
-
-## What we use it for
-
-With this method, we can see how similarly each group in the European Parliament (EPGs) voted. We use this information to make a low dimensional map where each group is a point. Groups that voted in similar ways appear closer together on the map, while those that voted differently are farther apart. This map is created using a technique called PCA, which helps us show complex patterns in just two dimensions.
-
-## How Similar European Parliament Groups Voted Over Time
 
 
 <div style="display: flex; justify-content: center; margin: 0; padding: 0; line-height: 0;">
@@ -183,16 +179,13 @@ With this method, we can see how similarly each group in the European Parliament
 </div>
 
 
-Even though the EPGs shift position from year to year, this is expected in a PCA plot, we can still observe some clear and stable trends between parties.
+Even though the EPGs shift position from year to year, this is expected in a PCA plot, clear trends between parties can still be observed.
 
 * The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways.
-* The same goes for **S&D** and **Renew Europe** — they are usually positioned near each other, suggesting they often agree on votes.
-
+* The same goes for **S&D** and **Renew Europe**, they are usually positioned near each other, suggesting they often agree on votes.
 * On the other hand, the **Identity and Democracy Group (IDG)** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
-
 * **Non-attached members** (NI) also tend to be far from the rest. These members don’t belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
-
-* From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded — for example, on lockdowns, vaccine strategies, or EU-wide recovery plans — [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
+* From 2005 to 2019, the positions of most groups remain steady. But starting in **2020**, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **Renew Europe (REG)** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded, for example on lockdowns, vaccine strategies, or EU-wide recovery plans, [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/).
 
 
 The following table summarizes the most and least similar EPG pairings annually, based on voting similarity metrics:

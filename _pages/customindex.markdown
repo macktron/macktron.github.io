@@ -25,16 +25,8 @@ For any two groups, it compares the percentage of each type of vote and calculat
 - `%N₁` and `%N₂` = Percentage of **No** votes
 - `%A₁` and `%A₂` = Percentage of **Abstain** votes
 
-The full formula:
-
-\[
-\text{Agreement Index} = 1 - \frac{1}{2} \left( | \%Y_1 - \%Y_2 | + | \%N_1 - \%N_2 | + | \%A_1 - \%A_2 | \right)
-\]
-
 ### Why use this?
 
 This metric is useful when:
 - You want to see how closely two political groups align on actual votes
-- You care more about **outcomes** than internal group discipline
-
-For a real-world application, check out how [EPG voting alignment changes over time →](/pca_epg_similarity/)
+- You care more about outcome   s than internal group discipline
