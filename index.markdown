@@ -66,6 +66,7 @@ With the COVID-19 pandemic in early 2020, the Rice index rose again and climbed 
 
 In both instances the data indicate that extreme external shocks substantially increase legislative cohesion and in inter-crisis intervals, the ideological and national interest provoke disagreements.
 
+---
 
 ## Polarization by Policy Area 💶⚔️🌱
 
@@ -131,7 +132,7 @@ Systemic shocks, most notably again the global financial crisis and the COVID-19
 **Implications**
 The data demonstrate that ideological compactness and formal group structures are the primary determinants of sustained voting agreement. Conversely, diverse coalitions fail to generate stable majorities except under extreme external pressure. In the absence of such shocks the less radical groups stay unified and are thus less prone to internal disagreement, both during crisis and stable periods. 
 
-## Group Disagreement by Policy Area 💶⚔️🌱
+## Group Disagreement by Policy Area 👥💶⚔️🌱
 <div style="display: flex; justify-content: center;">
   <iframe 
     src="/images/04_bar_rice_by_policy_and_party.html"
@@ -151,20 +152,22 @@ Together, these patterns confirm that **ideological compactness** and **institut
 
 ---
 
+
 ![A lighter moment](images/original.png)
 *The Atlantic; Getty. [Source](https://www.theatlantic.com/ideas/archive/2022/05/us-democrat-republican-partisan-polarization/629925/)*🌐
 
+---
 
 # Polarization Between Parliamentary Groups 👥↔️👥
 
 Understanding the similarity in voting behavior between different EPGs requires more than conventional measures. [The Rice Index](/riceindex/)📂, commonly used to quantify intra-group cohesion, is limited in this context since it evaluates agreement within a single group, but does not account for variations in group size or the frequency of abstentions.
 
-## Measuring Inter-Group Similarity 🔗📊
+## Measuring Inter-Group Similarity 🔗👥
 
 To overcome these limitations, a [custom agreement index](/customindex/)📂 is applied. This metric compares how two groups distribute their votes across the categories Yes✅, No🛑, and Abstain🤷🏻‍♂️. It adjusts for differences in group size and calculates the degree of similarity in their voting patterns. The result is a value between 0 and 1, where 1 indicates identical behavior across votes.
 [Learn more about the Custom Index](/customindex/)📂
 
-## Visualizing Voting Alignment ⚖️
+## Visualizing Voting Similarity ⚖️
 
 Based on the calculated similarities, clustering is constructed such that each EPG is mapped as a point in space. Groups with similar voting patterns are positioned closer to each other🫱🏻‍🫲🏾, while those with more divergent behavior are farther apart💔. [Learn more about the clustering](/pca/)
 
@@ -183,7 +186,7 @@ Even though the EPGs shift position from year to year trends between parties can
 
 * The **Greens/EFA** and **The Left** are often located close to each other in the similarity maps, which means they tend to vote in similar ways.
 * The same goes for **S&D** and **Renew Europe**.
-* On the other hand, the **IDG** is usually far from the other groups. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
+* On the other hand, the **IDG** is usually far from the other groups, especially The Left. This shows they vote very differently, which fits with their position as a right-wing, nationalist group.
 * **Non-attached members** (NI) also tend to be far from the rest. These members don't belong to any formal political group and often represent very different or unique national parties, so their voting behavior is harder to group.
 * From 2005 to 2019, the positions of most groups remain steady. But starting in 2020, we see groups beginning to spread apart more. In particular, **IDG** and **EPP** move away from each other. **REG** also shifts away from the center. This shift happens around the time of the **COVID-19 pandemic**, which brought many new laws and decisions. The differences in how groups responded, for example on lockdowns, vaccine strategies, or EU-wide recovery plans, [likely made these divisions stronger](https://ecfr.eu/publication/europes-invisible-divides/)🌐.
 
@@ -205,7 +208,8 @@ The following table summarizes the most and least similar EPG pairings annually�
 
 
 
-## Voting Alignment Across Policy Areas 🫱🏻‍🫲🏾📊
+## Voting Similarity Across Policy Areas 🫱🏻‍🫲🏾💶⚔️🌱👥 
+
 
 The PCA clustering process is applied using the same custom agreement index as in the general analysis, but performed separately for each policy area. This allows for the examination of voting alignment and polarization within specific domains of legislation.
 
@@ -226,6 +230,7 @@ The PCA clustering process is applied using the same custom agreement index as i
 
 * In 2020, a major divergence emerges between **EPP** and **IDG** across multiple policy areas. COVID-19 debates - on vaccines, lockdowns, recovery funds, and public health - force parties to take clear stances. IDG often resisted joint EU responses, while EPP leaned toward centralized action, leading to increased separation in voting similarity.
 
+## Takeaways from clusterings
 
 Crises and high-stakes policy moments, like the Eurozone crisis (2012) or the COVID-19 pandemic (2020), act as catalysts for polarization in voting patterns of the European Parliament. These shifts are not uniform across all policy areas. In economic and budgetary matters, we often see movement between liberal and conservative blocs. In climate and health, the fault line is clearer: pro-EU integration vs. nationalist opposition.
 
@@ -233,7 +238,7 @@ Some votes show up as especially divergent or unified between specific groups. [
 
 
 
-## Final Thoughts 🏁💭
+# Final Thoughts 🏁💭
 
 In conclusion, the analysis reveals a European Parliament that responds predictably to external shocks. During crises such as the global financial meltdown and the COVID-19 emergency, MEPs unite across ideological lines to pass landmark measures, driving temporary spikes in the Rice Index and drawing desparate groups into closer voting alignment. Yet in the mid-crisis times overall cohesion erodes, procedural areas like legal affairs oscillate wildly, and social and environmental areas remain persistently divided.
 
@@ -241,4 +246,4 @@ At the group level, formal structures and shared platforms enforce sustained uni
 
 Intergroup similarity further shows Europe's fault lines. Greens/EFA and The Left often vote in similar, as do S&D and Renew Europe, while IDG and non-attached members remain outliers relative to other groups. Clustering by policy area shows where sharp divisions between parties are most evident. Budgetary control cleaves liberal and conservative camps during fiscal crises, climate and health unite the pro-integration blocs, and, agricultural and trade areas fracture the moderate middle.
 
-Together, these dynamics tell the story of an institution both resilient and strained. The European Parliament can find unity when necessity demands it, but in the more routine rhythm of legislation, the strong forces of ideology, national interest and institutional design forces disagreements. One might find it reassuring to see a higher level of collaboration during crisis, but how long do we have to wait for the next pandemic to unite us.?🦠🟰🫱🏻‍🫲🏾
+Together, these dynamics tell the story of an institution both resilient and strained. The European Parliament can find unity when necessity demands it, but in the more routine rhythm of legislation, the strong forces of ideology, national interest and institutional design forces disagreements. One might find it reassuring to see a higher level of collaboration during crisis, but how long do we have to wait for the next pandemic to unite us?🦠🫱🏻‍🫲🏾
